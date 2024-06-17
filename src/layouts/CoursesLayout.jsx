@@ -1,13 +1,14 @@
 import { Outlet } from "react-router-dom"
+import { Header, Footer } from "../components"
 
 const CoursesLayout = () => {
   return (
-    <div>
-      Header
-      <main>
+    <div className="min-h-screen flex flex-col bg-background">
+      <Header />
+      <main className="flex-1">
         <Outlet />
       </main>
-      Footer
+      <Footer />
     </div>
   )
 }
