@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#060235",
+        background: "#010318",
         activeLink: "#82c9ff",
         defaultLink: "#FFFFFF",
       },
