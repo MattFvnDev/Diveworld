@@ -6,8 +6,8 @@ export default {
     extend: {
       colors: {
         background: "#010318",
-        activeLink: "#82c9ff",
-        defaultLink: "#FFFFFF",
+        active: "#82c9ff",
+        default: "#FFFFFF",
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
