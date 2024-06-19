@@ -1,11 +1,12 @@
+import {MenuSvg} from "./"
 
-const MobileButton = () => {
+const MobileButton = ({ openNavigation, toggleNavigation }) => {
   return (
     <button
-      
-      className="transition duration-500 delay-150 ease-in-out block rounded-full border-2 p-[12px] border-active group hover:border-default z-50 lg:hidden "
+      onClick={toggleNavigation}
+      className="transition duration-300 delay-150 ease-in-out block rounded-full border-2 p-3 border-active group hover:border-default z-50 lg:hidden "
     >
-      
+      <MenuSvg openNavigation={openNavigation} />
     </button>
   )
 }
