@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { logo } from "../assets"
 const Logo = () => {
   return (
-    <Link className="flex items-center space-x-2" to="/">
+    <Link className="flex items-center space-x-2 z-50"  to="/">
       <div className="w-[56px] h-[56px] rounded-full bg-white">
         <img
           src={logo}
