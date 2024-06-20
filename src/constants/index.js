@@ -2,27 +2,27 @@ export const navigationLinks = [
   {
     id: "0",
     title: "Oferta",
-    pathname: "/oferta",
+    path: "/oferta",
   },
   {
     id: "1",
     title: "Szkolenia",
-    pathname: "/szkolenia",
+    path: "/szkolenia",
   },
   {
     id: "2",
     title: "Oferta Grupowa",
-    pathname: "/oferta-grupowa",
+    path: "/oferta-grupowa",
   },
   {
     id: "3",
     title: "O Nas",
-    pathname: "/o-nas",
+    path: "/o-nas",
   },
   {
     id: "4",
     title: "Cennik",
-    pathname: "/cennik",
+    path: "/cennik",
   },
 ]
 

@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import { CoursesLayout, OfferLayout, RootLayout } from "./layouts"
+import { RootLayout } from "./layouts"
 import {
   About,
   Courses,
@@ -8,7 +8,7 @@ import {
   Home,
   Offer,
   Pricelist,
-  GroupOffer
+  GroupOffer,
 } from "./pages"
 
 export default function Router() {
@@ -22,8 +22,25 @@ export default function Router() {
           element: <Home />,
         },
         {
+          path: "/oferta",
+          element: <Offer />,
+        },
+        {
           path: "/oferta-grupowa",
           element: <GroupOffer />,
+        },
+        {
+          path:"/szkolenia",
+          element:<Courses/>
+        },
+        {
+          path: "/szkolenia/:id",
+          element: <DetailedCourse />,
+        },
+
+        {
+          path: "/oferta/:Id",
+          element: <DetailedOffer />,
         },
         {
           path: "/o-nas",
@@ -32,34 +49,6 @@ export default function Router() {
         {
           path: "/cennik",
           element: <Pricelist />,
-        },
-      ],
-    },
-    {
-      path: "/oferta",
-      element: <OfferLayout />,
-      children: [
-        {
-          index: true,
-          element: <Offer />,
-        },
-        {
-          path: "/oferta/:Id",
-          element: <DetailedOffer />,
-        },
-      ],
-    },
-    {
-      path: "/szkolenia",
-      element: <CoursesLayout />,
-      children: [
-        {
-          index: true,
-          element: <Courses />,
-        },
-        {
-          path: "/szkolenia/:id",
-          element: <DetailedCourse />,
         },
       ],
     },
