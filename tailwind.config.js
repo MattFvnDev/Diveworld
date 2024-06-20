@@ -8,6 +8,7 @@ export default {
         background: "#010318",
         active: "#82c9ff",
         default: "#FFFFFF",
+        mobilebackground: "#4d117a",
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
