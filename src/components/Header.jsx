@@ -1,4 +1,4 @@
-import { MobileNavbar, MobileButton, Logo } from "./"
+import { MobileNavbar, MobileButton, Logo, Navbar } from "./"
 import { useState } from "react"
 
 const Header = () => {
@@ -11,18 +11,19 @@ const Header = () => {
     }
   }
   return (
-    <header className="fixed top-0 left-0 right-0 border-b border-active/30 z-50">
+    <header className="fixed top-0 left-0 right-0 z-50">
       <div className="mx-auto p-5 flex justify-between max-w-screen-2xl">
         <Logo />
+        <Navbar />
         <MobileButton
           openNavigation={openNavigation}
           toggleNavigation={toggleNavigation}
         />
+        <MobileNavbar
+          toggleNavigation={toggleNavigation}
+          openNavigation={openNavigation}
+        />
       </div>
-      <MobileNavbar
-        toggleNavigation={toggleNavigation}
-        openNavigation={openNavigation}
-      />
     </header>
   )
 }

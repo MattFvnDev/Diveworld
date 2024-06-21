@@ -4,5 +4,6 @@ import Footer from "./Footer"
 import MobileButton from "./MobileButton"
 import MenuSvg from "./MenuSvg"
 import MobileNavbar from "./MobileNavbar"
+import Navbar from "./Navbar"
 
-export { Header, Logo, Footer, MobileButton, MenuSvg, MobileNavbar}
+export { Header, Logo, Footer, MobileButton, MenuSvg, MobileNavbar, Navbar}

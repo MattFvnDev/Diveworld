@@ -9,6 +9,7 @@ export default {
         active: "#82c9ff",
         default: "#FFFFFF",
         mobilebackground: "#4d117a",
+        accent:"#ff6726"
       },
       fontFamily: {
         sans: ["var(--font-sora)", ...fontFamily.sans],
