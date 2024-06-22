@@ -26,6 +26,12 @@ const Header = () => {
           openNavigation={openNavigation}
         />
         <Navbar />
+        <Button
+          href="/"
+          className="hidden lg:inline-block border-mobilebackground bg-mobilebackground text-center rounded-full tracking-wider border text-default text-xl font-bold font-code transition delay-150 px-8 py-3 hover:text-accent hover:border-default hover:bg-default "
+        >
+          Gozo
+        </Button>
       </div>
     </header>
   )

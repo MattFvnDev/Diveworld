@@ -5,7 +5,7 @@ const Navbar = () => {
   const { pathname } = useLocation()
   return (
     <nav className="hidden lg:flex">
-      <ul className="flex items-center space-x-4">
+      <ul className="flex items-center space-x-5">
         {navigationLinks.map((navigationlink) => (
           <li key={navigationlink.id} className="">
             <Link
