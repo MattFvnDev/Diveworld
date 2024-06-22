@@ -30,5 +30,4 @@ const MenuSvg = ({ openNavigation }) => {
       </svg>
     )
   }
-  
   export default MenuSvg
