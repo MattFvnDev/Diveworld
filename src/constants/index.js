@@ -1,30 +1,37 @@
 export const navigationLinks = [
   {
     id: "0",
+    title: "Strona Główna",
+    path: "/",
+    onlyMobile: true,
+  },
+  {
+    id: "1",
     title: "Oferta",
     path: "/oferta",
   },
   {
-    id: "1",
+    id: "2",
     title: "Szkolenia",
     path: "/szkolenia",
   },
   {
-    id: "2",
+    id: "3",
     title: "Oferta Grupowa",
     path: "/oferta-grupowa",
   },
   {
-    id: "3",
+    id: "4",
     title: "O Nas",
     path: "/o-nas",
   },
   {
-    id: "4",
+    id: "5",
     title: "Cennik",
     path: "/cennik",
   },
 ]
+
 
 export const socialLinks = [
   {
