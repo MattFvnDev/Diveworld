@@ -1,22 +1,25 @@
 import { navigationLinks } from "../constants"
-import { NavLink } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 const Navbar = () => {
+  const { pathname } = useLocation()
   return (
     <nav className="hidden lg:flex">
-      <ul className="flex items-center space-x-4 gap-4">
+      <ul className="flex items-center space-x-4">
         {navigationLinks.map((navigationlink) => (
           <li key={navigationlink.id} className="">
-            <NavLink
+            <Link
               to={`${navigationlink.path}`}
-              className={({ isActive }) =>
-                isActive
-                  ? "hover:text-active text-xl tracking-wide font-bold font-code text-accent"
-                  : "text-xl tracking-wide font-bold font-code text-default/70 hover:text-active"
-              }
+              className={`rounded-[32px] bg-transparent px-3 py-2 hover:bg-mobilebackground hover:text-default font-code text-xl border-transparent font-bold tracking-wide transition-colors hover:border-active ${
+                navigationlink.onlyMobile ? "lg:hidden" : ""
+              } ${
+                navigationlink.path === pathname
+                  ? "text-accent"
+                  : "text-default/70"
+              }`}
             >
               {navigationlink.title}
-            </NavLink>
+            </Link>
           </li>
         ))}
       </ul>
