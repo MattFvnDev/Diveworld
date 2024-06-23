@@ -11,6 +11,7 @@ const SocialIcons = () => {
         >
           <Link
             to={`${socialLink.url}`}
+            target="_blank"
             className="flex size-full items-center justify-center rounded"
           >
             <img
