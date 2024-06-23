@@ -5,7 +5,7 @@ const NavLinks = ({toggleNavigation}) => {
   const { pathname } = useLocation()
   return (
     <nav>
-      <ul className="flex-wrap justify-center block ">
+      <ul className="block space-y-1">
         {navigationLinks.map((navigationlink) => (
           <li
             key={navigationlink.id}
