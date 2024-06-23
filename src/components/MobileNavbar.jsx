@@ -6,7 +6,7 @@ const MobileNavbar = ({ openNavigation, toggleNavigation }) => {
     <div
       className={`fixed inset-x-0 bottom-0 top-0 flex w-full flex-col bg-mobilebackground duration-500 delay-150 ease-linear ${openNavigation ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"} lg:hidden`}
     >
-      <div className="relative top-[96px] h-[calc(100vh-96px)] overflow-auto px-5 space-y-4 border-t border-t-default">
+      <div className="relative top-[96px] h-[calc(100vh-96px)] overflow-auto px-5 py-3 space-y-4 border-t border-t-default">
         <NavLinks toggleNavigation={toggleNavigation}/>
         <Button
           type="button"
