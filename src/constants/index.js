@@ -1,3 +1,5 @@
+import { facebook, instagram, whatsapp, telegram } from "../assets";
+
 export const navigationLinks = [
   {
     id: "0",
@@ -32,26 +34,29 @@ export const navigationLinks = [
   },
 ]
 
-
 export const socialLinks = [
   {
     id: "0",
     title: "Facebook",
-    url: "https://www.facebook.com/people/Diveworldpl/100046871105720/",
+    iconUrl: facebook,
+    url: "https://www.facebook.com/profile.php?id=100046871105720",
   },
   {
     id: "1",
     title: "Instagram",
+    iconUrl: instagram,
     url: "https://www.instagram.com/diveworld.gozo/",
   },
   {
     id: "2",
-    title: "Telegram",
+    title: "WhatsApp",
+    iconUrl: whatsapp,
     url: "/",
   },
   {
     id: "3",
-    title: "WhatsApp",
+    title: "Telegram",
+    iconUrl: telegram,
     url: "/",
   },
-]
+];
