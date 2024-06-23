@@ -7,5 +7,6 @@ import Navbar from "./Navbar"
 import Button from "./Button"
 import NavLinks from "./NavLinks"
 import Links from "./Links"
+import SocialIcons from "./SocialIcons"
 
-export { Header, Logo, Footer, MenuSvg, MobileNavbar, Navbar, Button, NavLinks, Links }
+export { Header, Logo, Footer, MenuSvg, MobileNavbar, Navbar, Button, NavLinks, Links, SocialIcons }
