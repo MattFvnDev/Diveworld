@@ -5,12 +5,12 @@ const Navbar = () => {
   const { pathname } = useLocation()
   return (
     <nav className="hidden lg:flex">
-      <ul className="flex items-center space-x-5">
+      <ul className="flex items-center gap-4">
         {navigationLinks.map((navigationlink) => (
-          <li key={navigationlink.id} className="">
+          <li key={navigationlink.id}>
             <Link
               to={`${navigationlink.path}`}
-              className={`rounded-[32px] bg-transparent px-3 py-2 hover:bg-mobilebackground hover:text-default font-code text-xl border-transparent font-bold tracking-wide transition-colors hover:border-active ${
+              className={`uppercase rounded-[32px] bg-transparent px-3 py-2 hover:bg-mobilebackground hover:text-default font-code text-base border-transparent font-bold tracking-wide transition-colors hover:border-active ${
                 navigationlink.onlyMobile ? "lg:hidden" : ""
               } ${
                 navigationlink.path === pathname
