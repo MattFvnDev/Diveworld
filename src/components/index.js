@@ -9,6 +9,7 @@ import NavLinks from "./NavLinks"
 import Links from "./Links"
 import SocialIcons from "./SocialIcons"
 import Address from "./Address"
+import Chip from "./Chip"
 
 export {
   Header,
@@ -22,4 +23,5 @@ export {
   Links,
   SocialIcons,
   Address,
+  Chip
 }
