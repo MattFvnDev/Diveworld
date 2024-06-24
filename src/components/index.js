@@ -8,5 +8,18 @@ import Button from "./Button"
 import NavLinks from "./NavLinks"
 import Links from "./Links"
 import SocialIcons from "./SocialIcons"
+import Address from "./Address"
 
-export { Header, Logo, Footer, MenuSvg, MobileNavbar, Navbar, Button, NavLinks, Links, SocialIcons }
+export {
+  Header,
+  Logo,
+  Footer,
+  MenuSvg,
+  MobileNavbar,
+  Navbar,
+  Button,
+  NavLinks,
+  Links,
+  SocialIcons,
+  Address,
+}
