@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom"
-import { Address, Links, SocialIcons, Logo } from "./"
+import { Address, Links, SocialIcons, Logo, Chip } from "./"
 
 
 const Footer = () => {
@@ -33,22 +32,8 @@ const Footer = () => {
               powstało po prostu z pasji.
             </p>
             <ul className="mt-7 flex gap-4">
-              <li>
-                <Link
-                  to="/cennik"
-                  className="text-xs leading-normal font-semibold font-grotesk text-default hover:underline"
-                >
-                  Cennik
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/"
-                  className="text-xs leading-normal font-semibold font-grotesk text-default hover:underline"
-                >
-                  Gozo
-                </Link>
-              </li>
+              <Chip title="Cennik"link="/cennik"/>
+              <Chip title="Gozo"link="/"/>
             </ul>
           </div>
         </div>
