@@ -1,4 +1,4 @@
-import { facebook, instagram, whatsapp, telegram } from "../assets";
+import { facebook, instagram, whatsapp, messenger } from "../assets";
 
 export const navigationLinks = [
   {
@@ -51,12 +51,12 @@ export const socialLinks = [
     id: "2",
     title: "WhatsApp",
     iconUrl: whatsapp,
-    url: "/",
+    url: "https://web.whatsapp.com/send?phone=+48606418530",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "/",
+    title: "Messenger",
+    iconUrl: messenger,
+    url: "https://www.messenger.com/t/221959344524463",
   },
 ];
