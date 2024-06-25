@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom"
 const Links = () => {
   const { pathname } = useLocation()
   return (
-    <ul className="flex flex-wrap justify-center gap-2.5 xl:gap-4">
+    <ul className="flex flex-wrap justify-center gap-2.5">
       {navigationLinks.map((navigationlink) => (
         <li key={navigationlink.id}>
           <Link
