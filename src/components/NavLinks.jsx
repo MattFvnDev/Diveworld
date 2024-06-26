@@ -1,7 +1,7 @@
 import { navigationLinks } from "../constants"
 import { Link, useLocation } from "react-router-dom"
 
-const NavLinks = ({toggleNavigation}) => {
+const NavLinks = ({ toggleNavigation }) => {
   const { pathname } = useLocation()
   return (
     <nav>
@@ -14,7 +14,7 @@ const NavLinks = ({toggleNavigation}) => {
             <Link
               to={`${navigationlink.path}`}
               onClick={toggleNavigation}
-              className={`font-bold font-code text-xl hover:text-active transition delay-150 tracking-wide ${pathname === navigationlink.path ? "text-active" : "text-default"} ${
+              className={`font-bold font-code text-xl hover:text-active transition delay-150  inline-block rounded-[32px] bg-transparent px-3 py-2 -mx-3 w-[calc(100%+1.5rem)] ${pathname === navigationlink.path ? "text-active" : "text-default"} ${
                 navigationlink.onlyMobile ? "lg:hidden" : ""
               }`}
             >
