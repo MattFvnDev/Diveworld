@@ -10,6 +10,7 @@ import Links from "./Links"
 import SocialIcons from "./SocialIcons"
 import Address from "./Address"
 import Chip from "./Chip"
+import Hero from "./Hero"
 
 export {
   Header,
@@ -23,5 +24,6 @@ export {
   Links,
   SocialIcons,
   Address,
-  Chip
+  Chip,
+  Hero,
 }

@@ -1,7 +1,9 @@
-
+import { Hero } from "../components"
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Hero />
+    </>
   )
 }
 
