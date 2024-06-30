@@ -29,7 +29,7 @@ const Hero = () => {
                     href="/"
                     className="inline-block rounded-full w-full max-w-64 border text-base font-bold cursor-pointer border-default bg-default tracking-wider text-black font-grotesk transition delay-150 px-8 py-4 hover:text-default hover:border-black hover:bg-black"
                   >
-                    Sprawź naszą ofertę
+                    Sprawdź ofertę
                   </Button>
                 </div>
               </div>
