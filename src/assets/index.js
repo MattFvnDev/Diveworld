@@ -10,7 +10,6 @@ import sherwood from "./carousel/sherwood.svg"
 import apex from "./carousel/apex.svg"
 import xdeep from "./carousel/xdeep.svg"
 import oms from "./carousel/oms.svg"
-import scubapro from "./carousel/scubapro.svg"
 import gralmarine from "./carousel/gralmarine.svg"
 import suunto from "./carousel/suunto.svg"
 import hollis from "./carousel/hollis.svg"
@@ -32,7 +31,6 @@ export {
   apex,
   xdeep,
   oms,
-  scubapro,
   gralmarine,
   suunto,
   hollis,
