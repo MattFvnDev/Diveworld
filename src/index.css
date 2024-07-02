@@ -82,3 +82,15 @@
 .-rotate-360 {
   @apply rotate-[-360deg];
 }
+
+@keyframes moveCarouselIconLeft {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-moveCarouselIconLeft {
+  animation: moveCarouselIconLeft 60s linear infinite;
+}
