@@ -11,6 +11,8 @@ import SocialIcons from "./SocialIcons"
 import Address from "./Address"
 import Chip from "./Chip"
 import Hero from "./Hero"
+import Carousel from "./Carousel"
+import CarouselIcon from "./CarouselIcon"
 
 export {
   Header,
@@ -26,4 +28,6 @@ export {
   Address,
   Chip,
   Hero,
+  Carousel,
+  CarouselIcon,
 }

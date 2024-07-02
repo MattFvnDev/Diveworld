@@ -1,8 +1,9 @@
-import { Hero } from "../components"
+import { Carousel, Hero } from "../components"
 const Home = () => {
   return (
     <>
       <Hero />
+      <Carousel/>
     </>
   )
 }
