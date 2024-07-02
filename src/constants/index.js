@@ -77,7 +77,7 @@ export const socialLinks = [
     iconUrl: messenger,
     url: "https://www.messenger.com/t/221959344524463",
   },
-];
+]
 
 export const carouselIcons = [
   {
@@ -97,8 +97,8 @@ export const carouselIcons = [
   },
   {
     id: "3",
-    title: "Santi Logo",
-    icon: santi,
+    title: "Hollis Logo",
+    icon: hollis,
   },
   {
     id: "4",
@@ -112,25 +112,24 @@ export const carouselIcons = [
   },
   {
     id: "6",
-    title: "Bare Logo",
-    icon: bare,
+    title: "Triton Logo",
+    icon: triton,
   },
   {
     id: "7",
-    title: "XDeep Logo",
-    icon: xdeep,
-  },
-  {
-    id: "8",
     title: "GRALmarine Logo",
     icon: gralmarine,
   },
   {
-    id: "9",
-    title: "Hollis Logo",
-    icon: hollis,
+    id: "8",
+    title: "XDeep Logo",
+    icon: xdeep,
   },
-
+  {
+    id: "9",
+    title: "Santi Logo",
+    icon: santi,
+  },
   {
     id: "10",
     title: "Suunto Logo",
@@ -143,7 +142,7 @@ export const carouselIcons = [
   },
   {
     id: "12",
-    title: "Triton Logo",
-    icon: triton,
+    title: "Bare Logo",
+    icon: bare,
   },
 ]
