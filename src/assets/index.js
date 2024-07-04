@@ -17,7 +17,9 @@ import cressi from "./carousel/cressi.svg"
 import camaro from "./carousel/camaro.svg"
 import bare from "./carousel/bare.svg"
 import triton from "./carousel/triton.svg"
-
+import approach from "./choose/approach.svg"
+import experience from "./choose/experience.svg"
+import target from "./choose/target.svg"
 export {
   logo,
   facebook,
@@ -38,4 +40,7 @@ export {
   camaro,
   bare,
   triton,
+  approach,
+  experience,
+  target,
 }
