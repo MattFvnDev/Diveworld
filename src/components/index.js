@@ -13,6 +13,7 @@ import Chip from "./Chip"
 import Hero from "./Hero"
 import Carousel from "./Carousel"
 import CarouselIcon from "./CarouselIcon"
+import ChooseUs from "./ChooseUs"
 
 export {
   Header,
@@ -30,4 +31,5 @@ export {
   Hero,
   Carousel,
   CarouselIcon,
+  ChooseUs
 }

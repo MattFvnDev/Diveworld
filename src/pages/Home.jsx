@@ -1,9 +1,10 @@
-import { Carousel, Hero } from "../components"
+import { Carousel, ChooseUs, Hero } from "../components"
 const Home = () => {
   return (
     <>
       <Hero />
       <Carousel/>
+      <ChooseUs/>
     </>
   )
 }
