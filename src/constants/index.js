@@ -16,6 +16,9 @@ import {
   cressi,
   camaro,
   triton,
+  approach,
+  experience,
+  target,
 } from "../assets"
 
 export const navigationLinks = [
@@ -144,5 +147,87 @@ export const carouselIcons = [
     id: "12",
     title: "Bare Logo",
     icon: bare,
+  },
+]
+
+export const chooseUs = [
+  {
+    mainTitle: "Dlaczego DiveWorld?",
+    content: [
+      {
+        title: "Cel",
+        icon: target,
+        info: [
+          {
+            title: "Najwyższe standardy szkoleniowe",
+            stage:
+              "Doświadczeni i certyfikowani instruktorzy zgodnie z poziomem organizacji m.in. SSI i IAND",
+          },
+          {
+            title: "Przekazywanie wiedzy",
+            stage:
+              "Nauczamy tak byś stał się świadomym i doświadczonym nurkiem ",
+          },
+          {
+            title: "Przekazywanie umiejętności",
+            stage:
+              "Umiejętności można powtarzać tyle razy, ile to konieczne, aż do ich opanowania",
+          },
+          {
+            title: "Nauka w oparciu o praktykę",
+            stage:
+              "Blisko 4 dekady doświadczenia w nurkowaniu i prowadzeniu centrów nurkowych.",
+          },
+        ],
+      },
+      {
+        title: "Doświadczenie",
+        icon: experience,
+        info: [
+          {
+            title: "Związany z nurkowaniem",
+            stage: "Od 1987 roku",
+          },
+          {
+            title: "Instruktor Nurkowania",
+            stage: "Od 2002 roku",
+          },
+          {
+            title: "Instruktor Nurkowania Technicznego",
+            stage: "Od 2007 roku",
+          },
+          {
+            title: "Związany z Maltą i Gozo",
+            stage: "Od 2017 roku",
+          },
+        ],
+      },
+      {
+        title: "Podejście",
+        icon: approach,
+        info: [
+          {
+            title: "Znajomość sprzętu i jego konfiguracja",
+            stage:
+              "Nasze kursy koncentrują się na budowaniu podstaw bezpiecznego nurkowania",
+          },
+          {
+            title: "Indywidualizm",
+            stage:
+              "Oferujemy indywidualne podejście do każdego klienta, co skutkuje ograniczoną liczbę miejsc na kursach, jak i nurkowaniach z przewodnikiem.",
+          },
+          {
+            title: "Planowanie i realizacja",
+            stage:
+              "Dla każdego nurkowania tworzymy i przestrzegany plan nurkowania.",
+          },
+          {
+            title: "Swobodnie doradzamy i wspieramy",
+            stage:
+              "Oferujemy porady i wsparcie, a nie zmuszamy do udziału w kursie, którego nie potrzebujesz.",
+          },
+        ],
+      },
+    ],
   },
 ]
