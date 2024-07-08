@@ -159,22 +159,22 @@ export const chooseUs = [
         icon: target,
         info: [
           {
-            title: "Najwyższe standardy szkoleniowe",
+            title: "Standard",
             stage:
               "Doświadczeni i certyfikowani instruktorzy zgodnie z poziomem organizacji m.in. SSI i IAND",
           },
           {
-            title: "Przekazywanie wiedzy",
+            title: "Wiedza",
             stage:
-              "Nauczamy tak byś stał się świadomym i doświadczonym nurkiem ",
+              "Nauczamy tak byś stał się świadomym i doświadczonym nurkiem",
           },
           {
-            title: "Przekazywanie umiejętności",
+            title: "Umiejętności",
             stage:
               "Umiejętności można powtarzać tyle razy, ile to konieczne, aż do ich opanowania",
           },
           {
-            title: "Nauka w oparciu o praktykę",
+            title: "Praktyka",
             stage:
               "Blisko 4 dekady doświadczenia w nurkowaniu i prowadzeniu centrów nurkowych.",
           },
@@ -207,14 +207,14 @@ export const chooseUs = [
         icon: approach,
         info: [
           {
-            title: "Znajomość sprzętu i jego konfiguracja",
+            title: "Sprzęt i konfiguracja",
             stage:
               "Nasze kursy koncentrują się na budowaniu podstaw bezpiecznego nurkowania",
           },
           {
-            title: "Indywidualizm",
+            title: "Indywidualizm i spójność",
             stage:
-              "Oferujemy indywidualne podejście do każdego klienta, co skutkuje ograniczoną liczbę miejsc na kursach, jak i nurkowaniach z przewodnikiem.",
+              "Do każdego klienta podchodzimy kompleksowo z uwzględnieniem jego indywidualnych potrzeb, co skutkuje ograniczoną liczbę miejsc na kursach, jak i nurkowaniach z przewodnikiem.",
           },
           {
             title: "Planowanie i realizacja",
@@ -222,9 +222,9 @@ export const chooseUs = [
               "Dla każdego nurkowania tworzymy i przestrzegany plan nurkowania.",
           },
           {
-            title: "Swobodnie doradzamy i wspieramy",
+            title: "Doradztwo i wsparcie",
             stage:
-              "Oferujemy porady i wsparcie, a nie zmuszamy do udziału w kursie, którego nie potrzebujesz.",
+              "Oferujemy porady i wsparcie, a nie zmuszamy do udziału w kursie, którego faktycznie nie potrzebujesz.",
           },
         ],
       },
