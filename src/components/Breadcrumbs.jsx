@@ -26,7 +26,7 @@ const Breadcrumbs = () => {
             </span>
             {last ? (
               <span
-                className={`font-semibold text-base sm:text-2xl hover:underline ${to === location.pathname ? "text-accent" : "text-default"}`}
+                className={`font-semibold text-base sm:text-2xl ${to === location.pathname ? "text-accent" : "text-default"}`}
               >
                 {title}
               </span>
