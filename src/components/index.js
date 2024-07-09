@@ -14,6 +14,7 @@ import Hero from "./Hero"
 import Carousel from "./Carousel"
 import CarouselIcon from "./CarouselIcon"
 import ChooseUs from "./ChooseUs"
+import PagesHeader from "./PagesHeader"
 
 export {
   Header,
@@ -31,5 +32,6 @@ export {
   Hero,
   Carousel,
   CarouselIcon,
-  ChooseUs
+  ChooseUs,
+  PagesHeader
 }
