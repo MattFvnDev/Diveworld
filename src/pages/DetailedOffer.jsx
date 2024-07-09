@@ -1,7 +1,9 @@
-
+import { PagesHeader } from "../components"
 const DetailedOffer = () => {
   return (
-    <div>DetailedOffer</div>
+    <>
+    <PagesHeader/>
+    </>
   )
 }
 
