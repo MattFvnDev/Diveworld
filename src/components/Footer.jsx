@@ -1,13 +1,12 @@
 import { Address, Links, SocialIcons, Logo, Chip } from "./"
 
-
 const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
-    <footer>
-      <div className="mx-auto max-w-screen-2xl flex flex-col items-center gap-12 px-5 py-6 sm:px-8 md:items-start">
+    <footer className="mx-auto max-w-screen-2xl px-5 py-6">
+      <div className=" flex flex-col items-center gap-12 md:items-start">
         <div className="flex flex-col gap-12 lg:w-full lg:flex-row lg:items-center lg:justify-between">
-          <nav>
+          <nav className="-mx-5">
             <Links />
           </nav>
           <SocialIcons />
@@ -19,7 +18,7 @@ const Footer = () => {
         <hr className="h-px w-full border-0 bg-active" />
         <div className="grid grid-cols-12 gap-6 lg:flex-row">
           <div className="col-span-12 flex flex-col gap-6 lg:col-span-5">
-            <Logo/>
+            <Logo />
             <p className="text-xs leading-normal font-grotesk font-medium text-default/70">
               Copyright © Diveworld<sup>®</sup> 2011-{currentYear}
             </p>
@@ -32,8 +31,8 @@ const Footer = () => {
               powstało po prostu z pasji.
             </p>
             <ul className="mt-7 flex gap-4">
-              <Chip title="Cennik"link="/cennik"/>
-              <Chip title="Gozo"link="/"/>
+              <Chip title="Cennik" link="/cennik" />
+              <Chip title="Gozo" link="/" />
             </ul>
           </div>
         </div>
