@@ -3,7 +3,6 @@ import { convertPathnameToTitle } from "../services/convertService"
 
 const Breadcrumbs = () => {
   const location = useLocation()
-  console.log(location)
   const pathnames = location.pathname.split("/").filter((path) => path)
   return (
     <ul className="flex items-center">
