@@ -159,22 +159,22 @@ export const chooseUs = [
         icon: target,
         info: [
           {
-            title: "Standard",
+            subTitle: "Standard",
             stage:
-              "Doświadczeni i certyfikowani instruktorzy zgodnie z poziomem organizacji m.in. SSI i IAND",
+              "Doświadczeni i certyfikowani instruktorzy zgodnie z poziomem organizacji m.in. SSI i IAND.",
           },
           {
-            title: "Wiedza",
+            subTitle: "Wiedza",
             stage:
-              "Nauczamy tak byś stał się świadomym i doświadczonym nurkiem",
+              "Nauczamy tak byś stał się świadomym i doświadczonym nurkiem.",
           },
           {
-            title: "Umiejętności",
+            subTitle: "Umiejętności",
             stage:
-              "Umiejętności można powtarzać tyle razy, ile to konieczne, aż do ich opanowania",
+              "Umiejętności można powtarzać tyle razy, ile to konieczne, aż do ich opanowania.",
           },
           {
-            title: "Praktyka",
+            subTitle: "Praktyka",
             stage:
               "Blisko 4 dekady doświadczenia w nurkowaniu i prowadzeniu centrów nurkowych.",
           },
@@ -185,19 +185,19 @@ export const chooseUs = [
         icon: experience,
         info: [
           {
-            title: "Związany z nurkowaniem",
+            subTitle: "Związany z nurkowaniem",
             stage: "Od 1987 roku",
           },
           {
-            title: "Instruktor Nurkowania",
+            subTitle: "Instruktor Nurkowania",
             stage: "Od 2002 roku",
           },
           {
-            title: "Instruktor Nurkowania Technicznego",
+            subTitle: "Instruktor Nurkowania Technicznego",
             stage: "Od 2007 roku",
           },
           {
-            title: "Związany z Maltą i Gozo",
+            subTitle: "Związany z Maltą i Gozo",
             stage: "Od 2017 roku",
           },
         ],
@@ -207,22 +207,22 @@ export const chooseUs = [
         icon: approach,
         info: [
           {
-            title: "Sprzęt i konfiguracja",
+            subTitle: "Sprzęt i konfiguracja",
             stage:
-              "Nasze kursy koncentrują się na budowaniu podstaw bezpiecznego nurkowania",
+              "Nasze kursy koncentrują się na budowaniu podstaw bezpiecznego nurkowania.",
           },
           {
-            title: "Indywidualizm i spójność",
+            subTitle: "Indywidualizm i spójność",
             stage:
               "Do każdego klienta podchodzimy kompleksowo z uwzględnieniem jego indywidualnych potrzeb, co skutkuje ograniczoną liczbę miejsc na kursach, jak i nurkowaniach z przewodnikiem.",
           },
           {
-            title: "Planowanie i realizacja",
+            subTitle: "Planowanie i realizacja",
             stage:
               "Dla każdego nurkowania tworzymy i przestrzegany plan nurkowania.",
           },
           {
-            title: "Doradztwo i wsparcie",
+            subTitle: "Doradztwo i wsparcie",
             stage:
               "Oferujemy porady i wsparcie, a nie zmuszamy do udziału w kursie, którego faktycznie nie potrzebujesz.",
           },
