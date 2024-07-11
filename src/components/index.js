@@ -14,6 +14,7 @@ import Hero from "./Hero"
 import Carousel from "./Carousel"
 import CarouselIcon from "./CarouselIcon"
 import ChooseUs from "./ChooseUs"
+import ChooseUsContent from "./ChooseUsContent"
 import PagesHeader from "./PagesHeader"
 import Breadcrumbs from "./Breadcrumbs"
 
@@ -34,6 +35,7 @@ export {
   Carousel,
   CarouselIcon,
   ChooseUs,
+  ChooseUsContent,
   PagesHeader,
   Breadcrumbs,
 }
