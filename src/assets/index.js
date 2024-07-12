@@ -20,6 +20,7 @@ import triton from "./carousel/triton.svg"
 import approach from "./choose/approach.svg"
 import experience from "./choose/experience.svg"
 import target from "./choose/target.svg"
+import malta from "./logo/malta.svg"
 export {
   logo,
   facebook,
@@ -43,4 +44,5 @@ export {
   approach,
   experience,
   target,
+  malta
 }
