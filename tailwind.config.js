@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        "moveCarouselIconLeft": {
+        moveCarouselIconLeft: {
           "0%": {
             transform: "translateX(0)",
           },
@@ -13,10 +13,17 @@ export default {
             transform: "translateX(-100%)",
           },
         },
+        pulse: {
+          "50%": {
+            opacity: ".3",
+          },
+        },
       },
       animation: {
-        "moveCarouselIconLeft": "moveCarouselIconLeft 60s linear infinite",
+        moveCarouselIconLeft: "moveCarouselIconLeft 60s linear infinite",
+        pulse: "pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;",
       },
+
       colors: {
         background: "#010318",
         active: "#82c9ff",
