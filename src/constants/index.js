@@ -152,7 +152,7 @@ export const carouselIcons = [
 
 export const chooseUs = [
   {
-    mainTitle: "Dlaczego DiveWorld?",
+    mainTitle: "Dlaczego Diveworld?",
     content: [
       {
         title: "Cel",
