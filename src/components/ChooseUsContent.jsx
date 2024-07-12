@@ -1,8 +1,13 @@
-const ChooseUsContent = ({ subTitle, stage }) => {
+const ChooseUsContent = ({ title, subTitle, stage }) => {
   return (
-    <div className="flex flex-col space-y-2 max-w-2xl">
-      <h2 className="font-semibold text-xl">{subTitle}</h2>
-      <p className="font-medium text-default/70">{stage}</p>
+    <div className="flex flex-col">
+      <h2 className="mb-4 md:mb-6 font-semibold text-2xl md:text-3xl xl:text-4xl md:text-center text-active">
+        {title}
+      </h2>
+      <div className="flex flex-col gap-y-2">
+        <h3 className="font-semibold text-xl">{subTitle}</h3>
+        <p className="font-medium text-default/70">{stage}</p>
+      </div>
     </div>
   )
 }
