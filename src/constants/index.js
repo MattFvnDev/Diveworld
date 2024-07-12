@@ -159,6 +159,7 @@ export const chooseUs = [
         icon: target,
         info: [
           {
+            title: "Cel",
             subTitle: "Standard",
             stage:
               "Doświadczeni i certyfikowani instruktorzy zgodnie z poziomem organizacji m.in. SSI i IAND.",
@@ -185,6 +186,7 @@ export const chooseUs = [
         icon: experience,
         info: [
           {
+            title: "Doświadczenie",
             subTitle: "Związany z nurkowaniem",
             stage: "Od 1987 roku",
           },
@@ -207,6 +209,7 @@ export const chooseUs = [
         icon: approach,
         info: [
           {
+            title: "Podejście",
             subTitle: "Sprzęt i konfiguracja",
             stage:
               "Nasze kursy koncentrują się na budowaniu podstaw bezpiecznego nurkowania.",
