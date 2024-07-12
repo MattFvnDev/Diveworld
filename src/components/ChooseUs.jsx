@@ -15,7 +15,7 @@ const ChooseUs = () => {
             <Button
               key={itemIndex}
               onClick={() => setIndex(itemIndex)}
-              className={`flex justify-center rounded-full w-full max-w-64 border text-base font-bold cursor-pointer border-accent transition delay-150 px-8 py-4 md:mt-16 hover:border-default group ${index === itemIndex && "bg-mobilebackground border-default"}`}
+              className={`flex justify-center rounded-full w-full max-w-64 border-2 border-accent transition-all duration-300 px-8 py-4 md:mt-16 hover:border-default group ${index === itemIndex && "bg-mobilebackground border-active"}`}
             >
               <img
                 src={item.icon}
@@ -25,7 +25,7 @@ const ChooseUs = () => {
             </Button>
           ))}
         </div>
-        <div className="min-h-[480px] md:w-3/5 flex flex-col gap-y-4">
+        <div className="min-h-[580px] md:w-3/5 flex flex-col gap-y-4">
           {content[index].info.map((item, itemIndex) => (
             <ChooseUsContent key={itemIndex} {...item} />
           ))}
