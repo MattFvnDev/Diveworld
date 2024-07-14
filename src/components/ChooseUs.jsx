@@ -25,7 +25,7 @@ const ChooseUs = () => {
             </Button>
           ))}
         </div>
-        <div className="min-h-[580px] md:w-3/5 flex flex-col gap-y-4">
+        <div className="min-h-[580px] md:w-3/5 lg:max-w-3xl flex flex-col gap-y-4">
           {content[index].info.map((item, itemIndex) => (
             <ChooseUsContent key={itemIndex} {...item} />
           ))}
