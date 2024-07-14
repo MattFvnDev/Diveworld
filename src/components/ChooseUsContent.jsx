@@ -1,7 +1,7 @@
 const ChooseUsContent = ({ title, subTitle, stage }) => {
   return (
     <div className="flex flex-col">
-      <h2 className="mb-4 md:mb-6 font-semibold text-2xl md:text-3xl xl:text-4xl md:text-center text-active">
+      <h2 className="mb-4 md:mb-6 font-semibold text-start text-2xl md:text-3xl xl:text-4xl text-active">
         {title}
       </h2>
       <div className="flex flex-col gap-y-2">
