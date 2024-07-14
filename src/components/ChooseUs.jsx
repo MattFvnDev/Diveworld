@@ -1,11 +1,16 @@
 import { useState } from "react"
 import { chooseUs } from "../constants"
-import { Button, ChooseUsContent } from "./"
+import { Button, ChooseUsContent, Glow } from "./"
 const ChooseUs = () => {
   const [index, setIndex] = useState(0)
   const { mainTitle, content } = chooseUs[0]
   return (
-    <section className="mx-auto max-w-screen-2xl px-5 py-8 ">
+    <section className="mx-auto max-w-screen-2xl px-5 py-8">
+      <div className="hidden md:flex relative justify-center">
+        <div className="absolute translate-x-1/2 translate-y-1/2 ">
+          <Glow />
+        </div>
+      </div>
       <h1 className="text-accent font-semibold text-2xl mt-4 mb-8 md:text-3xl xl:text-4xl md:mb-12 xl:mb-16">
         {mainTitle}
       </h1>
