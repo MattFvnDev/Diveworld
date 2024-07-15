@@ -235,7 +235,7 @@ export const chooseUs = [
   },
 ]
 
-export const diveWorldCapabilities = [
+export const diveWorldFeatures = [
   {
     id: "0",
     path: "/oferta",
