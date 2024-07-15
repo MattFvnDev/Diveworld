@@ -234,3 +234,42 @@ export const chooseUs = [
     ],
   },
 ]
+
+export const diveWorldCapabilities = [
+  {
+    id: "0",
+    path: "/oferta",
+    title: "Oferta",
+    description: "Nurkowania rekreacyjne i techniczne",
+    features: [
+      "Odkryj i wpłyń do przepięknych jaskiń",
+      "Zanuż się i eksploruj zatopione wraki",
+      "Zanurkuj głęboko z wykorzystaniem technik dekompresyjnych",
+      "Sprawdź nurkowania w konfiguracji Sidemount",
+    ],
+  },
+  {
+    id: "1",
+    path: "/szkolenia",
+    title: "Szkolenia",
+    description: "Szeroki wachlarz szkoleń",
+    features: [
+      "Szkolenia dla nurków początkujących",
+      "Programy poziomu podstawowego",
+      "Programy specjalizacji dla nurków certyfikowanych",
+      "Szkolenia Extendend Range (XR) dla nurków zaawansowanych ",
+      "Szkolenie profesjonalistów nurkowych (DIVE PRO)",
+    ],
+  },
+  {
+    id: "2",
+    path: "/",
+    title: "Gozo",
+    description: "Gozo to malownicza wyspa na Morzu Śródziemnym",
+    features: [
+      "Archipelag Wysp Maltańskich to niewątpliwie jedno z najciekawszych miejsc do nurkowania w Europie",
+      "Zanurkuj na Gozo i zobacz Inland Sea, Citadel czy Cathedral Cave",
+      "Gozo jest atrakcyjne dla nurków w każdym poziomie zaawansowania",
+    ],
+  },
+]
