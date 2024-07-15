@@ -18,6 +18,7 @@ import ChooseUsContent from "./ChooseUsContent"
 import PagesHeader from "./PagesHeader"
 import Breadcrumbs from "./Breadcrumbs"
 import Glow from "./Glow"
+import Features from "./Features"
 
 export {
   Header,
@@ -40,4 +41,5 @@ export {
   PagesHeader,
   Breadcrumbs,
   Glow,
+  Features,
 }

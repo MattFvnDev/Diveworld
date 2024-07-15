@@ -1,10 +1,11 @@
-import { Carousel, ChooseUs, Hero } from "../components"
+import { Carousel, ChooseUs, Features, Hero } from "../components"
 const Home = () => {
   return (
     <>
       <Hero />
-      <Carousel/>
-      <ChooseUs/>
+      <Carousel />
+      <ChooseUs />
+      <Features />
     </>
   )
 }
