@@ -21,6 +21,8 @@ import approach from "./choose/approach.svg"
 import experience from "./choose/experience.svg"
 import target from "./choose/target.svg"
 import malta from "./logo/malta.svg"
+import sphere from "./features/sphere.webp"
+import stars from "./features/stars.svg"
 export {
   logo,
   facebook,
@@ -44,5 +46,7 @@ export {
   approach,
   experience,
   target,
-  malta
+  malta,
+  sphere,
+  stars,
 }
