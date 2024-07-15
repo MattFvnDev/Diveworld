@@ -19,6 +19,7 @@ import PagesHeader from "./PagesHeader"
 import Breadcrumbs from "./Breadcrumbs"
 import Glow from "./Glow"
 import Features from "./Features"
+import FeatureImages from "./FeaturesImages"
 
 export {
   Header,
@@ -42,4 +43,5 @@ export {
   Breadcrumbs,
   Glow,
   Features,
+  FeatureImages,
 }

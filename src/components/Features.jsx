@@ -1,9 +1,10 @@
-
+import { FeatureImages } from "./"
 
 const Features = () => {
   return (
     <section className="py-10 lg:py-16 xl:py-20 overflow-hidden">
       <div className="mx-auto w-full max-w-screen-2xl p-5 relative z-[2]">
+        <FeatureImages />
         <div className="max-w-[50rem] mx-auto mb-12 lg:mb-20 md:text-center">
           <div className="font-grotesk font-normal text-xs uppercase flex items-center mb-4 md:justify-center">
             <svg
@@ -58,7 +59,9 @@ const Features = () => {
               </defs>
             </svg>
           </div>
-          <h2 className="text-2xl">Zanurkuj raz, skorzystaj na zawsze</h2>
+          <h2 className="text-2xl leading-none md:text-3xl lg:text-4xl xl:text-5xl">
+            Zanurkuj raz, skorzystaj na zawsze
+          </h2>
         </div>
       </div>
     </section>
