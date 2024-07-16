@@ -20,6 +20,7 @@ import Breadcrumbs from "./Breadcrumbs"
 import Glow from "./Glow"
 import Features from "./Features"
 import FeatureImages from "./FeaturesImages"
+import Card from "./Card"
 
 export {
   Header,
@@ -44,4 +45,5 @@ export {
   Glow,
   Features,
   FeatureImages,
+  Card
 }
