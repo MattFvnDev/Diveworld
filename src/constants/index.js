@@ -258,18 +258,18 @@ export const diveWorldFeatures = [
       "Programy poziomu podstawowego",
       "Programy specjalizacji dla nurków certyfikowanych",
       "Szkolenia Extendend Range (XR) dla nurków zaawansowanych ",
-      "Szkolenie profesjonalistów nurkowych (DIVE PRO)",
+      "Szkolenia profesjonalistów nurkowych (DIVE PRO)",
     ],
   },
   {
     id: "2",
     path: "/",
     title: "Gozo",
-    description: "Gozo to malownicza wyspa na Morzu Śródziemnym",
+    description: "Sprawdź gdzie warto zanurkować na Gozo",
     features: [
       "Archipelag Wysp Maltańskich to niewątpliwie jedno z najciekawszych miejsc do nurkowania w Europie",
       "Zanurkuj na Gozo i zobacz Inland Sea, Citadel czy Cathedral Cave",
-      "Gozo jest atrakcyjne dla nurków w każdym poziomie zaawansowania",
+      "Gozo jest atrakcyjne dla nurków o różnym poziomie zaawansowania",
     ],
   },
 ]
