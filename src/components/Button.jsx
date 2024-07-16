@@ -1,4 +1,5 @@
-const Button = ({ className, href, onClick, children}) => {
+import { Link } from "react-router-dom";
+const Button = ({ className, to, onClick, children}) => {
     const renderButton = () => (
       <button onClick={onClick} className={className}>
         {children}
@@ -6,12 +7,12 @@ const Button = ({ className, href, onClick, children}) => {
     );
   
     const renderLink = () => (
-      <a href={href} className={className}>
+      <Link to={to} className={className}>
         {children}
-      </a>
+      </Link>
     );
   
-    return href ? renderLink() : renderButton();
+    return to ? renderLink() : renderButton();
   };
 
 export default Button;
