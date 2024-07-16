@@ -23,6 +23,7 @@ import target from "./choose/target.svg"
 import malta from "./logo/malta.svg"
 import sphere from "./features/sphere.webp"
 import stars from "./features/stars.svg"
+import check from "./features/check.svg"
 export {
   logo,
   facebook,
@@ -49,4 +50,5 @@ export {
   malta,
   sphere,
   stars,
+  check
 }
