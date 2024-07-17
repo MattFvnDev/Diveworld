@@ -66,25 +66,25 @@ const Features = () => {
           </h2>
         </div>
         <div className="mx-auto max-w-screen-xl lg:max-w-screen-2xl">
-          <div className="grid gap-10 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+          <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-12">
             {diveWorldFeatures.map((feature) => (
               <Card
                 key={feature.id}
-                className="border w-[18rem] max-lg:w-full h-full px-6 border-accent rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-default [&>h4]:even:text-accent [&>h4]:last:text-active"
+                className="border shadow-none transition-shadow duration-300 delay-150 ease-in-out px-5 border-accent rounded-[2rem] even:py-14 odd:py-8 odd:my-4 [&>h3]:first:text-default [&>h3]:even:text-accent [&>h3]:last:text-active hover:shadow-[0px_0px_25px_1px_rgba(130,201,255,1)] cursor-pointer"
               >
-                <h4 className="mb-4 text-3xl lg:text-4xl font-grotesk">
+                <h3 className="mb-4 text-3xl lg:text-4xl font-grotesk">
                   {feature.title}
-                </h4>
+                </h3>
                 <p className="min-h-[4rem] mb-3 text-default/50 lg:text-lg">
                   {feature.description}
                 </p>
                 <Link
                   to={`${feature.path}`}
-                  className="relative rounded-full inline-flex items-center justify-center h-11 transition-colors bg-accent border border-accent px-7 w-full mb-6 hover:bg-transparent hover:text-active font-semibold tracking-wider"
+                  className="relative rounded-full inline-flex items-center justify-center py-4 px-8 transition-colors bg-accent border border-accent w-full mb-6 lg:mb-8 hover:bg-transparent hover:text-active font-semibold tracking-wider"
                 >
                   Szczegóły
                 </Link>
-                <FeaturesList feature={feature}/>
+                <FeaturesList feature={feature} />
               </Card>
             ))}
           </div>
