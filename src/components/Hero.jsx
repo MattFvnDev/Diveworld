@@ -15,8 +15,8 @@ const Hero = () => {
                   </h1>
                 </div>
                 <p className="text-lg font-medium mx-auto mb-12 max-w-lg lg:text-2xl text-default/80 font-grotesk">
-                  Odkryj, dlaczego wyspa Gozo to najlepszy wybór do nurkowania
-                  pośród Archipelagu Wysp Maltańskich.
+                  Odkryj dlaczego Gozo jest najlepszą wyspą do nurkowania pośród
+                  Archipelagu Wysp Maltańskich.
                 </p>
                 <div className="w-full flex flex-col items-center justify-center gap-y-6 sm:flex-row sm:gap-x-10">
                   <Button
