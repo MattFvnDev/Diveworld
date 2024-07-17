@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom"
 import { logo } from "../assets"
+import {Button} from "./"
 const Logo = () => {
   return (
-    <Link className="flex items-center space-x-2" to="/">
+    <Button className="flex items-center space-x-2" to="/">
       <div className="w-[56px] h-[56px] rounded-full bg-white">
         <img
           src={logo}
@@ -15,7 +15,7 @@ const Logo = () => {
       <span className="inline-flex text-2xl font-bold text-active ">
         Diveworld
       </span>
-    </Link>
+    </Button>
   )
 }
 

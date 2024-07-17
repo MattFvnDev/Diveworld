@@ -28,7 +28,7 @@ const Header = () => {
         />
         <Navbar />
         <Button
-          href="/"
+          to="/"
           className="hidden lg:inline-flex relative items-center justify-center overflow-hidden min-w-48 duration-700 ease-out border-default bg-default/30 text-center rounded-full tracking-widest border-2 text-lg font-bold font-code transition delay-200 px-8 py-3 group hover:border-active"
         >
           <span className="absolute inset-0 flex items-center justify-center duration-500 -translate-x-full group-hover:translate-x-0">

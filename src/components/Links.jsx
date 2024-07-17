@@ -1,5 +1,6 @@
 import { navigationLinks } from "../constants"
-import { Link, useLocation } from "react-router-dom"
+import { useLocation } from "react-router-dom"
+import {Button} from "./"
 
 const Links = () => {
   const { pathname } = useLocation()
@@ -7,7 +8,7 @@ const Links = () => {
     <ul className="flex flex-wrap justify-center gap-2">
       {navigationLinks.map((navigationlink) => (
         <li key={navigationlink.id}>
-          <Link
+          <Button
             to={`${navigationlink.path}`}
             className={`uppercase inline-block px-3 py-2 font-code text-base font-bold tracking-wider transition-colors group  ${
               navigationlink.onlyMobile ? "hidden" : ""
@@ -25,7 +26,7 @@ const Links = () => {
                 {navigationlink.title}
               </div>
             </div>
-          </Link>
+          </Button>
         </li>
       ))}
     </ul>

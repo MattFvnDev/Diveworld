@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 const Card = ({ className, to, children}) => {
     const renderCard = () => (
         <div  className={className}>

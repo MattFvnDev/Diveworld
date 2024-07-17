@@ -9,9 +9,8 @@ const MobileNavbar = ({ openNavigation, toggleNavigation }) => {
       <div className="relative top-[96px] h-[calc(100vh-96px)] overflow-auto px-5 py-3 space-y-4 border-t border-t-default">
         <NavLinks toggleNavigation={toggleNavigation}/>
         <Button
-          type="button"
           onClick={toggleNavigation}
-          href="/"
+          to="/"
           className="inline-block w-full max-w-sm border-mobilebackground bg-mobilebackground text-center rounded-full tracking-wider border text-default text-xl font-bold font-code transition delay-150 px-8 py-4 hover:text-default hover:border-active hover:bg-transparent"
         >
           Dive in Gozo

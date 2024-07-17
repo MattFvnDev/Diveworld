@@ -1,5 +1,6 @@
-import { useLocation, Link } from "react-router-dom"
+import { useLocation} from "react-router-dom"
 import { convertPathnameToTitle } from "../services/convertService"
+import {Button} from "./"
 
 const Breadcrumbs = () => {
   const location = useLocation()
@@ -7,12 +8,12 @@ const Breadcrumbs = () => {
   return (
     <ul className="flex items-center">
       <li>
-        <Link
+        <Button
           to="/"
           className="font-semibold text-base sm:text-2xl hover:underline"
         >
           Strona Głowna
-        </Link>
+        </Button>
       </li>
       {pathnames.map((value, index) => {
         const last = index === pathnames.length - 1
@@ -30,12 +31,12 @@ const Breadcrumbs = () => {
                 {title}
               </span>
             ) : (
-              <Link
+              <Button
                 to={to}
                 className={`font-semibold text-base sm:text-2xl hover:underline ${to === location.pathname ? "text-accent" : "text-default"}`}
               >
                 {title}
-              </Link>
+              </Button>
             )}
           </li>
         )

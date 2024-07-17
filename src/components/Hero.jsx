@@ -20,13 +20,13 @@ const Hero = () => {
                 </p>
                 <div className="w-full flex flex-col items-center justify-center gap-y-6 sm:flex-row sm:gap-x-10">
                   <Button
-                    href="/"
+                    to="/"
                     className="inline-block rounded-full w-full max-w-64 border text-base font-bold cursor-pointer border-accent bg-accent tracking-wider text-default font-grotesk transition delay-150 px-8 py-4"
                   >
                     Zanurkuj na Gozo
                   </Button>
                   <Button
-                    href="/"
+                    to="/oferta"
                     className="inline-block rounded-full w-full max-w-64 border text-base font-bold cursor-pointer border-default bg-default tracking-wider text-black font-grotesk transition delay-150 px-8 py-4 hover:text-default hover:border-black hover:bg-black"
                   >
                     Sprawdź ofertę

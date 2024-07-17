@@ -1,14 +1,14 @@
-import { Link } from "react-router-dom"
+import {Button} from "./"
 
 const Chip = ({ title, link }) => {
   return (
     <li>
-      <Link
+      <Button
         to={`${link}`}
         className="text-xs leading-normal font-semibold font-grotesk text-default hover:underline"
       >
         {title}
-      </Link>
+      </Button>
     </li>
   )
 }

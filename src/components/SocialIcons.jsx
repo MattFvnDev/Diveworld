@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
 import { socialLinks } from "../constants"
+import {Button} from "./"
 
 const SocialIcons = () => {
   return (
@@ -9,7 +9,7 @@ const SocialIcons = () => {
           key={socialLink.id}
           className="group flex-1 first:rounded-l last:rounded-r hover:bg-mobilebackground"
         >
-          <Link
+          <Button
             to={`${socialLink.url}`}
             target="_blank"
             className="flex size-full items-center justify-center rounded"
@@ -19,7 +19,7 @@ const SocialIcons = () => {
               alt={`An icon of ${socialLink.title}`}
               className="group-hover:-translate-y-1 transition ease-in-out duration-300"
             />
-          </Link>
+          </Button>
         </li>
       ))}
     </ul>
