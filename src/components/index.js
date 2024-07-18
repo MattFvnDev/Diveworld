@@ -22,6 +22,7 @@ import Features from "./Features"
 import FeatureImages from "./FeaturesImages"
 import Card from "./Card"
 import FeaturesList from "./FeaturesList"
+import Trending from "./Trending"
 
 export {
   Header,
@@ -47,5 +48,6 @@ export {
   Features,
   FeatureImages,
   Card,
-  FeaturesList
+  FeaturesList,
+  Trending
 }
