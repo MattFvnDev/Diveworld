@@ -1,4 +1,4 @@
-import { Carousel, ChooseUs, Features, Hero } from "../components"
+import { Carousel, ChooseUs, Features, Hero, Trending } from "../components"
 const Home = () => {
   return (
     <>
@@ -6,6 +6,7 @@ const Home = () => {
       <Carousel />
       <ChooseUs />
       <Features />
+      <Trending/>
     </>
   )
 }
