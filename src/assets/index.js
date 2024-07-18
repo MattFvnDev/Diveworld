@@ -24,6 +24,24 @@ import malta from "./logo/malta.svg"
 import sphere from "./features/sphere.webp"
 import stars from "./features/stars.svg"
 import check from "./features/check.svg"
+import cavelogo from "./offer/cavelogo.webp"
+import cave from "./offer/cave.webp"
+import cave2 from "./offer/cave2.webp"
+import cave3 from "./offer/cave3.webp"
+import deep from "./offer/deep.webp"
+import deep2 from "./offer/deep2.webp"
+import deep3 from "./offer/deep3.webp"
+import sidemountlogo from "./offer/sidemountlogo.webp"
+import sidemount from "./offer/sidemount.webp"
+import sidemount2 from "./offer/sidemount2.webp"
+import sidemount3 from "./offer/sidemount3.webp"
+import wreck from "./offer/wreck.webp"
+import wreck2 from "./offer/wreck2.webp"
+import wreck3 from "./offer/wreck3.webp"
+import scubatanks from "./offer/scubatanks.svg"
+import caveentrance from "./offer/caveentrance.svg"
+import shipwreck from "./offer/shipwreck.svg"
+import deepdiver from "./offer/deepdiver.svg"
 export {
   logo,
   facebook,
@@ -50,5 +68,23 @@ export {
   malta,
   sphere,
   stars,
-  check
+  check,
+  cave,
+  cave2,
+  cave3,
+  deep,
+  deep2,
+  deep3,
+  sidemount,
+  sidemount2,
+  sidemount3,
+  wreck,
+  wreck2,
+  wreck3,
+  cavelogo,
+  sidemountlogo,
+  scubatanks,
+  caveentrance,
+  shipwreck,
+  deepdiver
 }
