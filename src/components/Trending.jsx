@@ -67,7 +67,7 @@ const Trending = () => {
             <Card
               to={`${diveWorldOffer.path}`}
               key={diveWorldOffer.id}
-              className="border-2 border-active rounded-[2rem] transition-transform duration-300 delay-150 ease-in-out hover:-translate-y-4 hover:border-accent group"
+              className="border border-active rounded-[2rem] transition-transform duration-300 delay-150 ease-in-out hover:-translate-y-4 hover:border-accent group"
             >
               <div className="relative">
                 <img
@@ -78,7 +78,7 @@ const Trending = () => {
               </div>
               <div className="flex items-center justify-between px-4 md:px-5 py-8 md:py-10 ">
                 <div className="space-y-2 lg:space-y-3">
-                  <h3 className="text-base md:text-xl lg:text-2xl 2xl:text-3xl text-accent font-semibold transition duration-500 ease-in-out relative after:bg-active after:absolute after:h-[2px] after:w-0 after:bottom-0 after:left-0 group-hover:after:w-full after:transition-all after:duration-700 ">
+                  <h3 className="text-base md:text-xl lg:text-2xl 2xl:text-3xl text-accent font-semibold relative after:bg-active after:absolute after:h-[2px] after:w-0 after:bottom-0 after:left-0 group-hover:after:w-full after:transition-all after:duration-700 ">
                     {diveWorldOffer.title}
                   </h3>
                   <p className="text-sm md:text-base 2xl:text-lg text-default/50">
@@ -89,6 +89,7 @@ const Trending = () => {
                   <img
                     src={diveWorldOffer.icon}
                     alt={`an icon of${diveWorldOffer.icon}`}
+                    className="transition-transform duration-500 delay-150 transform-gpu group-hover:-rotate-[24.5deg] "
                   />
                 </div>
               </div>
