@@ -19,6 +19,22 @@ import {
   approach,
   experience,
   target,
+  cave,
+  cave2,
+  cave3,
+  deep,
+  deep2,
+  deep3,
+  sidemount,
+  sidemount2,
+  sidemount3,
+  wreck,
+  wreck2,
+  wreck3,
+  scubatanks,
+  caveentrance,
+  shipwreck,
+  deepdiver
 } from "../assets"
 
 export const navigationLinks = [
@@ -271,5 +287,75 @@ export const diveWorldFeatures = [
       "Zanurkuj na Gozo i zobacz Inland Sea, Citadel czy Cathedral Cave",
       "Gozo jest atrakcyjne dla nurków o różnym poziomie zaawansowania",
     ],
+  },
+]
+
+export const diveWorldOffers = [
+  {
+    id: "1",
+    path: "/oferta/nurkowania-glebokie",
+    title: "Nurkowania Głębokie",
+    img: deep,
+    description: "Skorzystaj z mieszanek Nitrox i Trymix",
+    icon: deepdiver,
+    content: [
+      "Nurkowania głębokie nazywane nurkowaniami Extendend Range wymagające technik dekompresyjnych są jedną z popularnych form nurkowania na Gozo",
+      "Duże głębokości dostępne bezpośrednio z brzegu, ciepła woda, duża przejrzystość, wraki czy jaskinie sprzyjają długim nurkowaniom dekompresyjnym",
+      "Gozo stanowi idealne miejsca do szkoleń Extendend Range zarówno w konfiguracji Back Mount jak i Sidemount wykorzystując dostępne mieszaniny gazowe takie jak Nitrox czy Trimix",
+    ],
+    paragraph:
+      "Zainteresowanych zapraszamy na szkolenia Deep Diver, Decompresion Diver lub Extended Range Diver",
+    otherImgs: [deep2, deep3],
+  },
+  {
+    id: "2",
+    path: "/oferta/nurkowania-jaskiniowe",
+    title: "Nurkowania Jaskiniowe",
+    img: cave2,
+    description:"Wpłyń do malowniczych jaskiń na Gozo",
+    icon: caveentrance,
+    content: [
+      "U wybrzeży Malty a szczególnie Gozo znajduje się wiele Cavern dostępnych z brzegu jak i tych do których musimy dopłynąć łodzią",
+      "Większość z nich to typowe jaskinie morskie, które nie wymagają skomplikowanych technik nawigacyjnych",
+      "Duża przejrzystość wody, temperatura i nie wielka ilość osadów dennych stanowi doskonałe warunki do szkoleń cavernowych czy do doskonalenia poznanych już technik",
+      "Wiele z nich posiada ciekawe komory powietrzne inne zalane są całkowicie",
+    ],
+    paragraph:
+      "Zainteresowanych zapraszamy na szkolenia Cavern Diver i Cave Diver",
+    otherImgs: [cave, cave3],
+  },
+  {
+    id: "3",
+    path: "/oferta/nurkowania-wrakowe",
+    title: "Nurkowania Wrakowe",
+    img: wreck3,
+    description: "Eksploruj pokłady zatopionych wraków",
+    icon: shipwreck,
+    content: [
+      "Archipelag wysp Maltańskich oferuje wiele możliwości do nurkowania na wrakach",
+      "Na dnie leżą wraki historyczne jak i te komercyjne osadzone jako atrakcja dla nurków.",
+      "Na Gozo bezpośrednio z brzegu mamy 4 wraki, tj. MV Karwela, MV Cominoland, MV Xlendi oraz najnowszy MV Hephaestus",
+      "Do często odwiedzanych wraków dostępnych z łodzi należą, leżący u brzegu wyspy Comino patrolowiec P31 czy zatopiony przy Quawra point MV Imperial Eagle.",
+    ],
+    paragraph:
+      "Zainteresowanych zapraszamy na szkolenia Wreck Diver, Advanced Wreck Diver lub Extendend Wreck Diver",
+    otherImgs: [wreck2, wreck],
+  },
+  {
+    id: "4",
+    path: "/oferta/sidemount-diving",
+    title: "Nurkowania Sidemount",
+    img: sidemount2,
+    description: "Zanurkuj z butlami w konfiguracji bocznej",
+    icon: scubatanks,
+    content: [
+      "Konfiguracja Sidemount staje się coraz bardziej popularna",
+      "Sidemount wymaga specjalnego sprzętu i szkolenia, jednak coraz częściej nurkowie wykorzystują ją w nurkowaniach technicznych i rekreacyjnych",
+      "",
+      "Butle w konfiguracji bocznej idealnie sprawdzają się podczas nurkowań wrakowych i jaskiniowych, gdzie towarzyszy nam ograniczona przestrzeń",
+    ],
+    paragraph:
+      "Zainteresowanych zapraszamy na szkolenia Sidemount i Technical Sidemount",
+    otherImgs: [sidemount, sidemount3],
   },
 ]
