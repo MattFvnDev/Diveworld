@@ -78,7 +78,7 @@ const Trending = () => {
               </div>
               <div className="flex items-center justify-between px-4 md:px-5 py-8 md:py-10 ">
                 <div className="space-y-2 lg:space-y-3">
-                  <h3 className="text-base md:text-xl lg:text-2xl 2xl:text-3xl text-accent font-semibold relative after:bg-active after:absolute after:h-[2px] after:w-0 after:bottom-0 after:left-0 group-hover:after:w-full after:transition-all after:duration-700 ">
+                  <h3 className="text-base md:text-xl lg:text-2xl 2xl:text-3xl text-accent font-semibold relative inline-block after:bg-active after:absolute after:h-[2px] after:w-0 after:bottom-0 after:left-0 group-hover:after:w-full after:transition-all after:duration-700 ">
                     {diveWorldOffer.title}
                   </h3>
                   <p className="text-sm md:text-base 2xl:text-lg text-default/50">
