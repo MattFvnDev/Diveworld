@@ -24,7 +24,7 @@ import Card from "./Card"
 import FeaturesList from "./FeaturesList"
 import Trending from "./Trending"
 import Tag from "./Tag"
-import 
+import Heading from "./Heading"
 
 export {
   Header,
@@ -52,5 +52,6 @@ export {
   Card,
   FeaturesList,
   Trending,
-  Tag
+  Tag,
+  Heading
 }
