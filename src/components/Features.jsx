@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Card, FeatureImages, FeaturesList, Heading } from "./"
-import { diveWorldFeatures } from "../constants/index"
+import { diveWorldFeatures } from "../constants"
 
 const Features = () => {
   return (
