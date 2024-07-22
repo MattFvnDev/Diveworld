@@ -24,24 +24,20 @@ export default function Router() {
         {
           path: "/oferta",
           element: <Offer />,
-          children: [
-            {
-              index: true,
-              path: "/oferta/:id",
-              element: <DetailedOffer />,
-            },
-          ],
+        },
+        {
+          index: true,
+          path: "/oferta/:id",
+          element: <DetailedOffer />,
         },
         {
           path: "/szkolenia",
           element: <Courses />,
-          children: [
-            {
-              index: true,
-              path: "/szkolenia/:id",
-              element: <DetailedCourse />,
-            },
-          ],
+        },
+        {
+          index: true,
+          path: "/szkolenia/:id",
+          element: <DetailedCourse />,
         },
         {
           path: "/oferta-grupowa",
