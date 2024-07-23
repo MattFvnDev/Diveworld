@@ -34,7 +34,7 @@ import {
   scubatanks,
   caveentrance,
   shipwreck,
-  deepdiver
+  deepdiver,
 } from "../assets"
 
 export const navigationLinks = [
@@ -290,6 +290,41 @@ export const diveWorldFeatures = [
   },
 ]
 
+export const diveWorldTrendings = [
+  {
+    id: "1",
+    path: "/oferta/nurkowania-glebokie",
+    title: "Nurkowania Głębokie",
+    img: deep,
+    description: "Skorzystaj z mieszanek Nitrox i Trymix",
+    icon: deepdiver,
+  },
+  {
+    id: "2",
+    path: "/oferta/nurkowania-jaskiniowe",
+    title: "Nurkowania Jaskiniowe",
+    img: cave2,
+    description: "Wpłyń do malowniczych jaskiń na Gozo",
+    icon: caveentrance,
+  },
+  {
+    id: "3",
+    path: "/oferta/nurkowania-wrakowe",
+    title: "Nurkowania Wrakowe",
+    img: wreck3,
+    description: "Eksploruj pokłady zatopionych wraków",
+    icon: shipwreck,
+  },
+  {
+    id: "4",
+    path: "/oferta/sidemount-diving",
+    title: "Nurkowania Sidemount",
+    img: sidemount2,
+    description: "Zanurkuj z butlami w konfiguracji bocznej",
+    icon: scubatanks,
+  },
+]
+
 export const diveWorldOffers = [
   {
     id: "1",
@@ -312,7 +347,7 @@ export const diveWorldOffers = [
     path: "/oferta/nurkowania-jaskiniowe",
     title: "Nurkowania Jaskiniowe",
     img: cave2,
-    description:"Wpłyń do malowniczych jaskiń na Gozo",
+    description: "Wpłyń do malowniczych jaskiń na Gozo",
     icon: caveentrance,
     content: [
       "U wybrzeży Malty a szczególnie Gozo znajduje się wiele Cavern dostępnych z brzegu jak i tych do których musimy dopłynąć łodzią",
