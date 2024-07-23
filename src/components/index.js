@@ -25,6 +25,7 @@ import FeaturesList from "./FeaturesList"
 import Trending from "./Trending"
 import Tag from "./Tag"
 import Heading from "./Heading"
+import DetailedImages from "./DetailedImages"
 
 export {
   Header,
@@ -53,5 +54,6 @@ export {
   FeaturesList,
   Trending,
   Tag,
-  Heading
+  Heading,
+  DetailedImages
 }

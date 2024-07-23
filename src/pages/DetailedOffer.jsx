@@ -1,4 +1,4 @@
-import { Card, PagesHeader } from "../components"
+import { Card, PagesHeader, DetailedImages } from "../components"
 import { useParams } from "react-router-dom"
 import { diveWorldOffers } from "../constants"
 import { check } from "../assets"
@@ -35,7 +35,9 @@ const DetailedOffer = () => {
                   ))}
                 </ul>
               </Card>
-              
+              <div className="flex flex-col justify-between">
+                <DetailedImages />
+              </div>
             </div>
           </section>
         ))}
