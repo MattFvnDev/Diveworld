@@ -36,7 +36,7 @@ const DetailedOffer = () => {
                 </ul>
               </Card>
               <div className="flex flex-col justify-between">
-                <DetailedImages />
+                <DetailedImages {...offer}/>
               </div>
             </div>
           </section>
