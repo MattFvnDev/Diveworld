@@ -343,7 +343,7 @@ export const diveWorldOffers = [
     ],
     paragraph:
       "Zainteresowanych zapraszamy na szkolenia Deep Diver, Decompresion Diver lub Extended Range Diver",
-    otherImgs: [deep2, deep3],
+    otherImgs: [deep, deep2, deep3],
   },
   {
     id: "nurkowania-jaskiniowe",
@@ -361,7 +361,7 @@ export const diveWorldOffers = [
     ],
     paragraph:
       "Zainteresowanych zapraszamy na szkolenia Cavern Diver i Cave Diver",
-    otherImgs: [cave, cave3],
+    otherImgs: [cave, cave2, cave3],
   },
   {
     id: "nurkowania-wrakowe",
@@ -379,7 +379,7 @@ export const diveWorldOffers = [
     ],
     paragraph:
       "Zainteresowanych zapraszamy na szkolenia Wreck Diver, Advanced Wreck Diver lub Extendend Wreck Diver",
-    otherImgs: [wreck2, wreck],
+    otherImgs: [wreck, wreck2, wreck3],
   },
   {
     id: "sidemount-diving",
@@ -397,6 +397,6 @@ export const diveWorldOffers = [
     ],
     paragraph:
       "Zainteresowanych zapraszamy na szkolenia Sidemount i Technical Sidemount",
-    otherImgs: [sidemount, sidemount3],
+    otherImgs: [sidemount, sidemount2, sidemount3],
   },
 ]
