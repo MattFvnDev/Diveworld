@@ -12,7 +12,7 @@ const DetailedOffer = () => {
         .filter((offer) => offer.id === id)
         .map((offer) => (
           <section key={offer.id} className="py-10 lg:py-16 xl:pt-20 xl:pb-28">
-            <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2">
+            <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
               <Card className="px-5 lg:max-w-xl">
                 <h2 className="mb-4 text-3xl lg:text-4xl font-grotesk">
                   {offer.title}
@@ -35,8 +35,8 @@ const DetailedOffer = () => {
                   ))}
                 </ul>
               </Card>
-              <div className="flex flex-col justify-between">
-                <DetailedImages {...offer}/>
+              <div className="flex flex-col lg:mt-5 ">
+                <DetailedImages {...offer} />
               </div>
             </div>
           </section>
