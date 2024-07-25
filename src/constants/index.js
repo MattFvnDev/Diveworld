@@ -351,7 +351,7 @@ export const diveWorldOffers = [
     title: "Nurkowania Jaskiniowe",
     img: cave2,
     description: "Wpłyń do malowniczych jaskiń na Gozo",
-    specDescription: "Wejdź do świata nurkowań technicznych z Diveworld",
+    specDescription: "Wejdź do świata nurkowań jaskiniowych z Diveworld",
     icon: caveentrance,
     content: [
       "U wybrzeży Malty a szczególnie Gozo znajduje się wiele Cavern dostępnych z brzegu jak i tych do których musimy dopłynąć łodzią",
@@ -369,7 +369,7 @@ export const diveWorldOffers = [
     title: "Nurkowania Wrakowe",
     img: wreck3,
     description: "Eksploruj pokłady zatopionych wraków",
-    specDescription: "Wejdź do świata nurkowań technicznych z Diveworld",
+    specDescription: "Wejdź do świata nurkowań wrakowych z Diveworld",
     icon: shipwreck,
     content: [
       "Archipelag wysp Maltańskich oferuje wiele możliwości do nurkowania na wrakach",
@@ -387,7 +387,7 @@ export const diveWorldOffers = [
     title: "Nurkowania Sidemount",
     img: sidemount2,
     description: "Zanurkuj z butlami w konfiguracji bocznej",
-    specDescription: "Wejdź do świata nurkowań technicznych z Diveworld",
+    specDescription: "Wejdź do świata Sidemount z Diveworld",
     icon: scubatanks,
     content: [
       "Konfiguracja Sidemount staje się coraz bardziej popularna",
@@ -398,5 +398,107 @@ export const diveWorldOffers = [
     paragraph:
       "Zainteresowanych zapraszamy na szkolenia Sidemount i Technical Sidemount",
     otherImgs: [sidemount, sidemount2, sidemount3],
+  },
+]
+
+export const diveWorldCourses = [
+
+  {
+    id:"1",
+    path: "",
+    title: "Try Scuba",
+    category:"Scuba Experience",
+    img: ,
+    description: "",
+    content:"Program SSI Try Scuba to najlepszy sposób na spróbowanie nurkowania po raz pierwszy. Będziesz na wodach basenowych lub płytkich wodach ograniczonych pod opieką instruktora. Program jest skierowany do osób bez doświadczenia w nurkowaniu. Celem programu jest wprowadzenie do powszechnie wykorzystywanego sprzętu i umiejętności, które są niezbędne do bezpiecznego nurkowania. Po kursie otrzymasz kartę uznaniową SSI Try Scuba",
+    details:[
+      {
+        ageCondition: "Minimalny wiek do udziału w szkoleniu:",
+        minimalAge: 8,
+        quantityCondition:"Ilość zajęć teoretycznych:",
+        minimalQuantity: 1,
+        classesCondition: "Ilość zajęć w basenie / wodach ograniczonych:",
+        classes: 1,
+        maxDepthCondition:"Max. głębokosć podczas szkolenia:",
+        maxDepth: "0 m / 0 ft",
+        otherConditions:"Wymagania do otrzymania certyfikatu:",
+        other:"Zdolny do pływania, brak wymaganych uprawnień",
+      }
+    ],
+  },
+  {
+    id:"2",
+    path: "",
+    title: "Basic Diver",
+    category:"Scuba Experience",
+    img: ,
+    description: "",
+    content:"Program SSI Basic Diver nauczysz się umiejętności i wiedzy, których potrzebujesz, aby spróbować nurkować na głębokości do 12 metrów z Profesjonalistą SSI. Cały program Basic Diver może zostać zaliczony na poczet programów Scuba Diver lub Open Water Dive w ciągu 6 miesięcy.",
+    details: [
+      {
+        ageCondition: "Minimalny wiek do udziału w szkoleniu:",
+        minimalAge: 10,
+        quantityCondition:"Ilość zajęć teoretycznych:",
+        minimalQuantity: 1,
+        classesCondition: "Ilość zajęć w basenie / wodach ograniczonych:",
+        classes: 1,
+        maxDepthCondition:"Max. głębokosć podczas szkolenia:",
+        maxDepth: "12 m / 40 ft",
+        otherConditions:"Wymagania do otrzymania certyfikatu:",
+        other:"brak wymaganych uprawnień",
+      }
+    ],
+  },
+  {
+    id:"3",
+    path: "",
+    title: "Scuba Diver",
+    category:"Scuba Experience",
+    img: ,
+    description: "",
+    content:"Program SSI Scuba Diver, to program wprowadzający wiedzę i niezbędne ćwiczenia do nurkowania na wodach basenopodobnych i na wodach otwartych. Dowiesz się wszystkiego, czego potrzebujesz, aby nurkować w wodach otwartych na głębokości 12 metrów z Profesjonalistą SSI. W tym programie ukończysz prawie połowę kursu Open Water Diver i możesz łatwo podnieść swoje kwalifikacje.",
+    details: [
+      {
+        ageCondition: "Minimalny wiek do udziału w szkoleniu:",
+        minimalAge: 10,
+        quantityCondition:"Ilość zajęć teoretycznych:",
+        minimalQuantity: 3,
+        classesCondition: "Ilość zajęć w basenie / wodach ograniczonych:",
+        classes: 2,
+        divesCondition: "Ilość zajęć na Wodach Otwartych:",
+        divess: 2,
+        maxDepthCondition:"Max. głębokosć podczas szkolenia:",
+        maxDepth: "12 m / 40 ft",
+        otherConditions:"Wymagania do otrzymania certyfikatu:",
+        other:"brak wymaganych uprawnień",
+      }
+    ],
+  },
+  {
+    id:"4",
+    path: "",
+    title: "Open Water Diver",
+    category:"Scuba Experience",
+    img: ,
+    description: "",
+    content:"Program SSI Scuba Diver, to program wprowadzający wiedzę i niezbędne ćwiczenia do nurkowania na wodach basenopodobnych i na wodach otwartych. Dowiesz się wszystkiego, czego potrzebujesz, aby nurkować w wodach otwartych na głębokości 12 metrów z Profesjonalistą SSI. W tym programie ukończysz prawie połowę kursu Open Water Diver i możesz łatwo podnieść swoje kwalifikacje.",
+    details: [
+      {
+        ageCondition: "Minimalny wiek do udziału w szkoleniu:",
+        minimalAge: 10,
+        quantityCondition:"Ilość zajęć teoretycznych:",
+        minimalQuantity: 6,
+        classesCondition: "Ilość zajęć w basenie / wodach ograniczonych:",
+        classes: 6,
+        divesCondition: "Ilość zajęć na Wodach Otwartych:",
+        divess: 4,
+        maxDepthCondition:"Max. głębokosć podczas szkolenia:",
+        maxDepth: "18 m / 60 ft",
+        otherConditions:"Wymagania do otrzymania certyfikatu:",
+        other:"brak wymaganych uprawnień",
+        duration:"Czas trwania kursu:",
+        durationCondition: 5,
+      }
+    ],
   },
 ]
