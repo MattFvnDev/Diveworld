@@ -3,8 +3,8 @@ import { convertPathnameToTitle } from "../services/convertService"
 import {Button} from "./"
 
 const Breadcrumbs = () => {
-  const location = useLocation()
-  const pathnames = location.pathname.split("/").filter((path) => path)
+  const {pathname} = useLocation()
+  const pathnames = pathname.split("/").filter((path) => path)
   return (
     <ul className="flex items-center">
       <li>
@@ -26,14 +26,14 @@ const Breadcrumbs = () => {
             </span>
             {last ? (
               <span
-                className={`font-semibold text-base sm:text-2xl ${to === location.pathname ? "text-accent" : "text-default"}`}
+                className={`font-semibold text-base sm:text-2xl ${to === pathname ? "text-accent" : "text-default"}`}
               >
                 {title}
               </span>
             ) : (
               <Button
                 to={to}
-                className={`font-semibold text-base sm:text-2xl hover:underline ${to === location.pathname ? "text-accent" : "text-default"}`}
+                className={`font-semibold text-base sm:text-2xl hover:underline ${to === pathname ? "text-accent" : "text-default"}`}
               >
                 {title}
               </Button>
