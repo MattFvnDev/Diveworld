@@ -408,7 +408,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Try Scuba",
     category:"Scuba Experience",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Try Scuba to najlepszy sposób na spróbowanie nurkowania po raz pierwszy. Będziesz na wodach basenowych lub płytkich wodach ograniczonych pod opieką instruktora. Program jest skierowany do osób bez doświadczenia w nurkowaniu. Celem programu jest wprowadzenie do powszechnie wykorzystywanego sprzętu i umiejętności, które są niezbędne do bezpiecznego nurkowania. Po kursie otrzymasz kartę uznaniową SSI Try Scuba",
     details:[
@@ -431,7 +431,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Basic Diver",
     category:"Scuba Experience",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Basic Diver nauczysz się umiejętności i wiedzy, których potrzebujesz, aby spróbować nurkować na głębokości do 12 metrów z Profesjonalistą SSI. Cały program Basic Diver może zostać zaliczony na poczet programów Scuba Diver lub Open Water Dive w ciągu 6 miesięcy.",
     details: [
@@ -454,7 +454,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Scuba Diver",
     category:"Scuba Experience",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Scuba Diver, to program wprowadzający wiedzę i niezbędne ćwiczenia do nurkowania na wodach basenopodobnych i na wodach otwartych. Dowiesz się wszystkiego, czego potrzebujesz, aby nurkować w wodach otwartych na głębokości 12 metrów z Profesjonalistą SSI. W tym programie ukończysz prawie połowę kursu Open Water Diver i możesz łatwo podnieść swoje kwalifikacje.",
     details: [
@@ -479,7 +479,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Open Water Diver",
     category:"Scuba Experience",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Scuba Diver, to program wprowadzający wiedzę i niezbędne ćwiczenia do nurkowania na wodach basenopodobnych i na wodach otwartych. Dowiesz się wszystkiego, czego potrzebujesz, aby nurkować w wodach otwartych na głębokości 12 metrów z Profesjonalistą SSI. W tym programie ukończysz prawie połowę kursu Open Water Diver i możesz łatwo podnieść swoje kwalifikacje.",
     details: [
@@ -506,7 +506,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Recreational Sidemount Diving",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Recreational Sidemount Diving zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań Extendend Range z wykorzystaniem konfiguracji Sidemount dla dwóch butli z gazem dennym i butli dekompresyjnych w granicach zdobytych uprawnień.",
     details: [
@@ -533,7 +533,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Navigation",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Navigation jest przeznaczony dla nurków którzy chcą uzyskać odpowiednią wiedzę i umiejętności które pozwolą im poruszać się pod wodą wykorzystując techniki nawigacyjne. Po ukończeniu programu, kursant będzie w stanie przeprowadzić nurkowanie samodzielnie nawigując i wynurzyć się w zaplanowanym miejscu.",
     details: [
@@ -558,7 +558,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Night Diving and Limited Visibility",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Celem szkolenia Night Diving and Limited Visibility jest przekazanie kursantom niezbędnej wiedzy i umiejętności aby bezpiecznie nurkować w nocy lub w warunkach ograniczonej widoczności. W trakcie szkolenia kursanci zdobędą wiedzę na temat rodzaju i ilości wymaganych świateł sztucznych, sposobie komunikowania się w ograniczonej widoczności oraz przećwiczą stosowane procedury awaryjne.",
     details: [
@@ -583,7 +583,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Wreck Diving",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Wreck Diving to program który daje kursantom wiedzę teoretyczną na temat nurkowania na wrakach. Dostarcza umiejętności do samodzielnego planowania nurkowania do i w okolice wraku. Nawigowanie w obrębie wraku jak i procedury awaryjne. Program nie daje uprawnień do wpływania do środka i penetracji wraków.",
     details: [
@@ -608,7 +608,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Deep Diving",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Deep Diving zapewni kursantom odpowiednią wiedzę i umiejętności w planowaniu i przeprowadzeniu nurkowań do maksymalnej głębokości 40m w granicach limitów bez dekompresyjnych (NDL). Po ukończeniu szkolenia kursant będzie potrafił zaplanować max. czas nurkowania do określonej głębokości oraz zarządzać ilością gazu oddechowego do planowanego nurkowania.",
     details: [
@@ -633,7 +633,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Advanced Adventurer",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Advanced Adventurer został stworzony dla nurków którzy chcą zaznajomić się z różnymi formami nurkowania pod bezpośrednim nadzorem SSI Dive Proffesional. Program obejmuje 5 nurkowań z dowolnie wybranych specjalizacji nurkowych. Po ukończeniu programu kursant będzie mógł nurkować na zalecaną głębokość z partnerem o równych lub wyższych uprawnieniach.",
     details: [
@@ -658,7 +658,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Decompression Diving",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Decompression Diving zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań w konfiguracji rekreacyjnej do maksymalnej głębokości 40m z wykorzystaniem gazów dekompresyjnych o frakcji tlenu do 40% o maksymalnym czasie dekompresji do 15 minut.",
     details: [
@@ -683,7 +683,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Enriched Air Nitrox",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Jeden z programów „No Water Program”, znacza to że nie jest wymagane szkolenie w wodzie. Program ten zapewnia dostateczną wiedzę w zakresie planowania i nurkowania z wykorzystaniem mieszanin oddechowych o wyższych frakcjach tlenu. Program ten posiada dwa niezależne od siebie poziomy. Poziom I dla nurkowań z wykorzystaniem mieszaniny oddechowej EAN32%, oraz pozim II posiadający(ISO 111O7) dla planowania nurkowań dla mieszanin oddechowych posiadających do 40% tlenu. Uzyskanie poziomu II nie jest zależne od poziomu I.",
     details: [
@@ -706,7 +706,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Science of Diving",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Jeden z programów „No Water Program” nie wymagający nurkowania w wodach otwartych. Zapewnia on wiedzę z dziedziny fizyki, fizjologii nurkowania, teorii dekompresji a także środowiska naturalnego i sprzętu wykorzystywanego do nurkowania. Obszerny program wymagany przy kursach na stopień DivePro – Dive Master i stopnie instruktorskie.",
     details: [
@@ -729,7 +729,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Perfect Buoyancy",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Perfect Buoyancy kontrola pływalności to kluczowa umiejętność, lecz każdy nurek powie Ci, że udoskonalenie jej wymaga czasu. Specjalizacja Perfect Buoyancy nauczy Cię zaawansowanych technik i sposobów kontroli pływalności, abyś mógł udoskonalić swoją pływalność szybciej.",
     details: [
@@ -756,7 +756,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Diver Stress and Rescue",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program SSI Diver Stress and Rescue zapewnia wiedzę i umiejętności przydatne do pomocy Tobie i innym nurkom. Dowiesz się jak rozpoznawać stres i zapobiegać wypadkom oraz nauczysz się praktycznych technik przeprowadzania akcji ratunkowych i udzielania pierwszej pomocy.  ",
     details: [
@@ -781,7 +781,7 @@ export const diveWorldCourses = [
     path: "",
     title: "Dry Suit Diving",
     category:"Programy Specjalizacji nurkowych",
-    img: ,
+    // img: ,
     description: "",
     content:"Program ten zapewnia odpowiednią wiedzę i umiejętności do nurkowania w suchym skafandrze. Kursant dowie się jak ważne jest utrzymanie komfortu cieplnego, pozna różne rodzaje suchych skafandrów, zasady ich przechowywania i konserwacji, oraz nauczy się bezpiecznego nurkowania w tym sprzęcie.",
     details: [
