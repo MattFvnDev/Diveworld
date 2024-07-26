@@ -26,6 +26,7 @@ import Trending from "./Trending"
 import Tag from "./Tag"
 import Heading from "./Heading"
 import DetailedImages from "./DetailedImages"
+import Indicator from "./Indicator"
 
 export {
   Header,
@@ -55,5 +56,6 @@ export {
   Trending,
   Tag,
   Heading,
-  DetailedImages
+  DetailedImages,
+  Indicator,
 }
