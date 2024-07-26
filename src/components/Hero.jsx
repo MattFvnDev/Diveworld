@@ -1,5 +1,5 @@
 import { herobackground } from "../assets"
-import { Button } from "./"
+import { Button, Indicator } from "./"
 
 const Hero = () => {
   return (
@@ -48,6 +48,12 @@ const Hero = () => {
           >
             <source src={herobackground} />
           </video>
+        </div>
+      </div>
+      <div className="absolute inset-x-0 my-0 mx-auto bottom-6 opacity-100 ">
+        <div className="relative flex flex-col items-center ">
+          <Indicator />
+          <Indicator />
         </div>
       </div>
     </section>
