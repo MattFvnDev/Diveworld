@@ -42,6 +42,48 @@ import scubatanks from "./offer/scubatanks.svg"
 import caveentrance from "./offer/caveentrance.svg"
 import shipwreck from "./offer/shipwreck.svg"
 import deepdiver from "./offer/deepdiver.svg"
+import advancedadventurer from "./courses/advancedadventurer.webp"
+import basicdiver from "./courses/basicdiver.webp"
+import buoyancy from "./courses/buoyancy.webp"
+import buoyancy1 from "./courses/buoyancy1.webp"
+import cavediving from "./courses/cavediving.webp"
+import decompression from "./courses/decompression.webp"
+import decompression1 from "./courses/decompression1.webp"
+import deepdiving from "./courses/deepdiving.webp"
+import deepdiving1 from "./courses/deepdiving1.webp"
+import dsd from "./courses/dsd.webp"
+import dsd1 from "./courses/dsd1.webp"
+import ean from "./courses/ean.webp"
+import ean1 from "./courses/ean1.webp"
+import hypoxic from "./courses/hypoxic.webp"
+import navigation from "./courses/navigation.webp"
+import navigation1 from "./courses/navigation1.webp"
+import nlv from "./courses/nlv.webp"
+import nlv1 from "./courses/nlv1.webp"
+import owd from "./courses/owd.webp"
+import owd1 from "./courses/owd1.webp"
+import recreationalsidemount from "./courses/recreationalsidemount.webp"
+import recreationalsidemount1 from "./courses/recreationalsidemount1.webp"
+import science from "./courses/science.webp"
+import science1 from "./courses/science1.webp"
+import scubadiver from "./courses/scubadiver.webp"
+import scubadiver1 from "./courses/scubadiver1.webp"
+import stressrescue from "./courses/stressrescue.webp"
+import stressrescue1 from "./courses/stressrescue1.webp"
+import tryscuba from "./courses/tryscuba.webp"
+import tryscuba1 from "./courses/tryscuba1.webp"
+import twd from "./courses/twd.webp"
+import txr from "./courses/txr.webp"
+import wreckdiving from "./courses/wreckdiving.webp"
+import wreckdiving1 from "./courses/wreckdiving1.webp"
+import xrcave from "./courses/xrcave.webp"
+import xrf from "./courses/xrf.webp"
+import xrf1 from "./courses/xrf1.webp"
+import xrnitrox from "./courses/xrnitrox.webp"
+import xrs from "./courses/xrs.webp"
+import xrt from "./courses/xrt.webp"
+import xrwreck from "./courses/xrwreck.webp"
+
 export {
   logo,
   facebook,
@@ -86,5 +128,46 @@ export {
   scubatanks,
   caveentrance,
   shipwreck,
-  deepdiver
+  deepdiver,
+  advancedadventurer,
+  basicdiver,
+  buoyancy,
+  buoyancy1,
+  cavediving,
+  decompression,
+  decompression1,
+  deepdiving,
+  deepdiving1,
+  dsd,
+  dsd1,
+  ean,
+  ean1,
+  hypoxic,
+  navigation,
+  navigation1,
+  nlv,
+  nlv1,
+  owd,
+  owd1,
+  recreationalsidemount,
+  recreationalsidemount1,
+  science,
+  science1,
+  scubadiver,
+  scubadiver1,
+  stressrescue,
+  stressrescue1,
+  tryscuba,
+  tryscuba1,
+  twd,
+  txr,
+  wreckdiving,
+  wreckdiving1,
+  xrcave,
+  xrf,
+  xrf1,
+  xrnitrox,
+  xrs,
+  xrt,
+  xrwreck,
 }
