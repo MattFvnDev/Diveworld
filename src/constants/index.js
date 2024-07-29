@@ -35,6 +35,47 @@ import {
   caveentrance,
   shipwreck,
   deepdiver,
+  advancedadventurer,
+  basicdiver,
+  buoyancy,
+  buoyancy1,
+  cavediving,
+  decompression,
+  decompression1,
+  deepdiving,
+  deepdiving1,
+  dsd,
+  dsd1,
+  ean,
+  ean1,
+  hypoxic,
+  navigation,
+  navigation1,
+  nlv,
+  nlv1,
+  owd,
+  owd1,
+  recreationalsidemount,
+  recreationalsidemount1,
+  science,
+  science1,
+  scubadiver,
+  scubadiver1,
+  stressrescue,
+  stressrescue1,
+  tryscuba,
+  tryscuba1,
+  twd,
+  txr,
+  wreckdiving,
+  wreckdiving1,
+  xrcave,
+  xrf,
+  xrf1,
+  xrnitrox,
+  xrs,
+  xrt,
+  xrwreck,
 } from "../assets"
 
 export const navigationLinks = [
@@ -407,8 +448,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Try Scuba",
     category: "Scuba Experience",
-    // img: ,
-    description: "",
+    img: tryscuba,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Try Scuba to najlepszy sposób na spróbowanie nurkowania po raz pierwszy. Będziesz na wodach basenowych lub płytkich wodach ograniczonych pod opieką instruktora. Program jest skierowany do osób bez doświadczenia w nurkowaniu. Celem programu jest wprowadzenie do powszechnie wykorzystywanego sprzętu i umiejętności, które są niezbędne do bezpiecznego nurkowania. Po kursie otrzymasz kartę uznaniową SSI Try Scuba",
     details: [
@@ -423,6 +464,7 @@ export const diveWorldCourses = [
         maxDepth: "0 m / 0 ft",
         otherConditions: "Wymagania do otrzymania certyfikatu:",
         other: "Zdolny do pływania, brak wymaganych uprawnień",
+        otherImgs: tryscuba1,
       },
     ],
   },
@@ -431,8 +473,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Basic Diver",
     category: "Scuba Experience",
-    // img: ,
-    description: "",
+    img: tryscuba,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Basic Diver nauczysz się umiejętności i wiedzy, których potrzebujesz, aby spróbować nurkować na głębokości do 12 metrów z Profesjonalistą SSI. Cały program Basic Diver może zostać zaliczony na poczet programów Scuba Diver lub Open Water Dive w ciągu 6 miesięcy.",
     details: [
@@ -447,6 +489,7 @@ export const diveWorldCourses = [
         maxDepth: "12 m / 40 ft",
         otherConditions: "Wymagania do otrzymania certyfikatu:",
         other: "Zdolny do pływania, brak wymaganych uprawnień",
+        otherImgs: basicdiver,
       },
     ],
   },
@@ -455,8 +498,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Scuba Diver",
     category: "Scuba Experience",
-    // img: ,
-    description: "",
+    img: scubadiver,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Scuba Diver, to program wprowadzający wiedzę i niezbędne ćwiczenia do nurkowania na wodach basenopodobnych i na wodach otwartych. Dowiesz się wszystkiego, czego potrzebujesz, aby nurkować w wodach otwartych na głębokości 12 metrów z Profesjonalistą SSI. W tym programie ukończysz prawie połowę kursu Open Water Diver i możesz łatwo podnieść swoje kwalifikacje.",
     details: [
@@ -473,6 +516,7 @@ export const diveWorldCourses = [
         maxDepth: "12 m / 40 ft",
         otherConditions: "Wymagania do otrzymania certyfikatu:",
         other: "Zdolny do pływania, brak wymaganych uprawnień",
+        otherImgs: scubadiver1,
       },
     ],
   },
@@ -481,8 +525,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Open Water Diver",
     category: "Scuba Experience",
-    // img: ,
-    description: "",
+    img: owd,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Scuba Diver, to program wprowadzający wiedzę i niezbędne ćwiczenia do nurkowania na wodach basenopodobnych i na wodach otwartych. Dowiesz się wszystkiego, czego potrzebujesz, aby nurkować w wodach otwartych na głębokości 12 metrów z Profesjonalistą SSI. W tym programie ukończysz prawie połowę kursu Open Water Diver i możesz łatwo podnieść swoje kwalifikacje.",
     details: [
@@ -501,6 +545,7 @@ export const diveWorldCourses = [
         other: "Zdolny do pływania, brak wymaganych uprawnień",
         duration: "Czas trwania kursu:",
         durationCondition: 5,
+        otherImgs: owd1,
       },
     ],
   },
@@ -509,8 +554,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Recreational Sidemount Diving",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: recreationalsidemount,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Recreational Sidemount Diving zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań Extendend Range z wykorzystaniem konfiguracji Sidemount dla dwóch butli z gazem dennym i butli dekompresyjnych w granicach zdobytych uprawnień.",
     details: [
@@ -529,6 +574,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver",
         duration: "Czas trwania kursu:",
         durationCondition: 3,
+        otherImgs: recreationalsidemount1,
       },
     ],
   },
@@ -537,8 +583,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Navigation",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: navigation,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Navigation jest przeznaczony dla nurków którzy chcą uzyskać odpowiednią wiedzę i umiejętności które pozwolą im poruszać się pod wodą wykorzystując techniki nawigacyjne. Po ukończeniu programu, kursant będzie w stanie przeprowadzić nurkowanie samodzielnie nawigując i wynurzyć się w zaplanowanym miejscu.",
     details: [
@@ -555,6 +601,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver",
         duration: "Czas trwania kursu:",
         durationCondition: 1,
+        otherImgs: navigation1,
       },
     ],
   },
@@ -563,8 +610,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Night Diving and Limited Visibility",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: nlv,
+    description: "Sprawdź szczegóły",
     content:
       "Celem szkolenia Night Diving and Limited Visibility jest przekazanie kursantom niezbędnej wiedzy i umiejętności aby bezpiecznie nurkować w nocy lub w warunkach ograniczonej widoczności. W trakcie szkolenia kursanci zdobędą wiedzę na temat rodzaju i ilości wymaganych świateł sztucznych, sposobie komunikowania się w ograniczonej widoczności oraz przećwiczą stosowane procedury awaryjne.",
     details: [
@@ -581,6 +628,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver",
         duration: "Czas trwania kursu:",
         durationCondition: 1,
+        otherImgs: nlv1,
       },
     ],
   },
@@ -589,8 +637,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Wreck Diving",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: wreckdiving,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Wreck Diving to program który daje kursantom wiedzę teoretyczną na temat nurkowania na wrakach. Dostarcza umiejętności do samodzielnego planowania nurkowania do i w okolice wraku. Nawigowanie w obrębie wraku jak i procedury awaryjne. Program nie daje uprawnień do wpływania do środka i penetracji wraków.",
     details: [
@@ -607,6 +655,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver",
         duration: "Czas trwania kursu:",
         durationCondition: 1,
+        otherImgs: wreckdiving1,
       },
     ],
   },
@@ -615,8 +664,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Deep Diving",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: deepdiving,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Deep Diving zapewni kursantom odpowiednią wiedzę i umiejętności w planowaniu i przeprowadzeniu nurkowań do maksymalnej głębokości 40m w granicach limitów bez dekompresyjnych (NDL). Po ukończeniu szkolenia kursant będzie potrafił zaplanować max. czas nurkowania do określonej głębokości oraz zarządzać ilością gazu oddechowego do planowanego nurkowania.",
     details: [
@@ -633,6 +682,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver",
         duration: "Czas trwania kursu:",
         durationCondition: 2,
+        otherImgs: deepdiving1,
       },
     ],
   },
@@ -641,8 +691,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Advanced Adventurer",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: advancedadventurer,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Advanced Adventurer został stworzony dla nurków którzy chcą zaznajomić się z różnymi formami nurkowania pod bezpośrednim nadzorem SSI Dive Proffesional. Program obejmuje 5 nurkowań z dowolnie wybranych specjalizacji nurkowych. Po ukończeniu programu kursant będzie mógł nurkować na zalecaną głębokość z partnerem o równych lub wyższych uprawnieniach.",
     details: [
@@ -659,6 +709,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver",
         duration: "Czas trwania kursu:",
         durationCondition: 3,
+        otherImgs: scubadiver1,
       },
     ],
   },
@@ -667,8 +718,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Decompression Diving",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: decompression,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Decompression Diving zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań w konfiguracji rekreacyjnej do maksymalnej głębokości 40m z wykorzystaniem gazów dekompresyjnych o frakcji tlenu do 40% o maksymalnym czasie dekompresji do 15 minut.",
     details: [
@@ -686,6 +737,7 @@ export const diveWorldCourses = [
           "certyfikat Open Water Diver, certyfikat Deep Diving, Certyfikat Enriched Air Nitrox 40, co najmniej 24 zalogowane nurkowania",
         duration: "Czas trwania kursu:",
         durationCondition: 2,
+        otherImgs: decompression1,
       },
     ],
   },
@@ -694,8 +746,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Enriched Air Nitrox",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: ean,
+    description: "Sprawdź szczegóły",
     content:
       "Jeden z programów „No Water Program”, znacza to że nie jest wymagane szkolenie w wodzie. Program ten zapewnia dostateczną wiedzę w zakresie planowania i nurkowania z wykorzystaniem mieszanin oddechowych o wyższych frakcjach tlenu. Program ten posiada dwa niezależne od siebie poziomy. Poziom I dla nurkowań z wykorzystaniem mieszaniny oddechowej EAN32%, oraz pozim II posiadający(ISO 111O7) dla planowania nurkowań dla mieszanin oddechowych posiadających do 40% tlenu. Uzyskanie poziomu II nie jest zależne od poziomu I.",
     details: [
@@ -710,6 +762,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver, w połączeniu z kursem OWD",
         duration: "Czas trwania kursu:",
         durationCondition: 2,
+        otherImgs: ean1,
       },
     ],
   },
@@ -718,8 +771,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Science of Diving",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: science,
+    description: "Sprawdź szczegóły",
     content:
       "Jeden z programów „No Water Program” nie wymagający nurkowania w wodach otwartych. Zapewnia on wiedzę z dziedziny fizyki, fizjologii nurkowania, teorii dekompresji a także środowiska naturalnego i sprzętu wykorzystywanego do nurkowania. Obszerny program wymagany przy kursach na stopień DivePro – Dive Master i stopnie instruktorskie.",
     details: [
@@ -734,6 +787,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver, w połączeniu z kursem OWD",
         duration: "Czas trwania kursu:",
         durationCondition: "Do uzyskania wymaganej wiedzy",
+        otherImgs: science1,
       },
     ],
   },
@@ -742,8 +796,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Perfect Buoyancy",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: buoyancy,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Perfect Buoyancy kontrola pływalności to kluczowa umiejętność, lecz każdy nurek powie Ci, że udoskonalenie jej wymaga czasu. Specjalizacja Perfect Buoyancy nauczy Cię zaawansowanych technik i sposobów kontroli pływalności, abyś mógł udoskonalić swoją pływalność szybciej.",
     details: [
@@ -762,6 +816,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver, w połączeniu z kursem OWD",
         duration: "Czas trwania kursu:",
         durationCondition: 1,
+        otherImgs: buoyancy1,
       },
     ],
   },
@@ -770,8 +825,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Diver Stress and Rescue",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: stressrescue,
+    description: "Sprawdź szczegóły",
     content:
       "Program SSI Diver Stress and Rescue zapewnia wiedzę i umiejętności przydatne do pomocy Tobie i innym nurkom. Dowiesz się jak rozpoznawać stres i zapobiegać wypadkom oraz nauczysz się praktycznych technik przeprowadzania akcji ratunkowych i udzielania pierwszej pomocy.  ",
     details: [
@@ -789,6 +844,7 @@ export const diveWorldCourses = [
           "certyfikat Open Water Diver, ważny kurs pierwszej pomocy (dwa lata)",
         duration: "Czas trwania kursu:",
         durationCondition: 3,
+        otherImgs: stressrescue1,
       },
     ],
   },
@@ -797,8 +853,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Dry Suit Diving",
     category: "Programy Specjalizacji nurkowych",
-    // img: ,
-    description: "",
+    img: dsd,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia odpowiednią wiedzę i umiejętności do nurkowania w suchym skafandrze. Kursant dowie się jak ważne jest utrzymanie komfortu cieplnego, pozna różne rodzaje suchych skafandrów, zasady ich przechowywania i konserwacji, oraz nauczy się bezpiecznego nurkowania w tym sprzęcie.",
     details: [
@@ -817,6 +873,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver, w połączeniu z kursem OWD",
         duration: "Czas trwania kursu:",
         durationCondition: 3,
+        otherImgs: dsd1,
       },
     ],
   },
@@ -825,8 +882,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Extended Range Foundations",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: xrf,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten wprowadza nurka na wyższy poziom wiedzy, procedur i umiejętności nurkowania w konfiguracji sprzętowej Extendend Range. Program zawiera zasady konfiguracji technicznej sprzętu, używania zestawów wielo butlowych, procedury S-drill, V-drill, Gas sharing oraz techniki poruszania się przy użyciu płetw (Fins Technics).",
     details: [
@@ -840,6 +897,7 @@ export const diveWorldCourses = [
           "certyfikat Open Water Diver, co najmniej 24 zalogowane nurkowania",
         duration: "Czas trwania kursu:",
         durationCondition: 2,
+        otherImgs: xrf1,
       },
     ],
   },
@@ -848,8 +906,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Extended Range Nitrox Diving",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: xrnitrox,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę do samodzielnego planowania i przeprowadzenia nurkowania do głębokości 40m używając konfiguracji sprzętowej Extendend Range z wykorzystaniem butli dekompresyjnej z nitroksem do maksymalnej frakcji tlenu 50% i łącznym czasem dekompresji do 15min.",
     details: [
@@ -867,6 +925,7 @@ export const diveWorldCourses = [
           "certyfikat Deep Diving, Enriched Air Nitrox 40,Recreational Sidemount Diving, co najmniej 24 zalogowane nurkowania",
         duration: "Czas trwania kursu:",
         durationCondition: 3,
+        otherImgs: xrf,
       },
     ],
   },
@@ -875,8 +934,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Extended Range Wreck Diver",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: xrwreck,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań do wraków z ograniczoną penetracją w granicach światła dziennego do maksymalnej głębokości 40m z wykorzystaniem sprzętu i procedur wrakowych z partnerem o równych lub o wyższych uprawnieniach.",
     details: [
@@ -894,6 +953,7 @@ export const diveWorldCourses = [
           "certyfikat Open Water Diver, co najmniej 24 zalogowane nurkowania",
         duration: "Czas trwania kursu:",
         durationCondition: 3,
+        otherImgs: recreationalsidemount1,
       },
     ],
   },
@@ -902,8 +962,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Extended Range Sidemount",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: xrs,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań Extendend Range z wykorzystaniem konfiguracji Sidemount dla dwóch butli z gazem dennym i butli dekompresyjnych w granicach zdobytych uprawnień.",
     details: [
@@ -920,6 +980,7 @@ export const diveWorldCourses = [
         other: "certyfikat Open Water Diver",
         duration: "Czas trwania kursu:",
         durationCondition: 3,
+        otherImgs: xrf1,
       },
     ],
   },
@@ -928,8 +989,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Extended Range Cavern Diving",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: xrcave,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań w środowisku przestrzeni zamkniętej z ograniczoną penetracją w granicach światła dziennego do maksymalnej głębokości 40m z wykorzystaniem sprzętu i procedur jaskiniowych z partnerem o równych lub o wyższych uprawnieniach.",
     details: [
@@ -947,6 +1008,7 @@ export const diveWorldCourses = [
           "certyfikat Open Water Diver, co najmniej 24 zalogowane nurkowania",
         duration: "Czas trwania kursu:",
         durationCondition: 3,
+        otherImgs: xrf1,
       },
     ],
   },
@@ -955,8 +1017,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Extended Range Trimix",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: xrt,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę I umiejętności do samodzielnego planowania i przeprowadzenia nurkowań do maksymalnej głębokości 45m, z użyciem gazów dekompresyjnych do frakcji tlenu 100% z łącznym czasem dekompresji 25 min. Podniesienie kwalifikacji do XR Trimix wymaga ukończenia szkolenia teoretycznego XR Timix w materiałach kursanta, oraz nurkowanie 5 i 6 musi być przeprowadzone z mieszaniną oddechową typu Trimix.",
     details: [
@@ -973,6 +1035,7 @@ export const diveWorldCourses = [
         other: "certyfikat Deep Diving, Certyfikat Enriched Air Nitrox 40",
         duration: "Czas trwania kursu:",
         durationCondition: 4,
+        otherImgs: xrf1,
       },
     ],
   },
@@ -981,8 +1044,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Technical Extended Range Trimix",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: txr,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę I umiejętności do samodzielnego planowania i przeprowadzenia nurkowań do maksymalnej głębokości 60m, z użyciem gazów dekompresyjnych do frakcji tlenu 100% z łącznym czasem dekompresji 25 min.",
     details: [
@@ -1000,6 +1063,7 @@ export const diveWorldCourses = [
           "co najmniej 70 zalogowanych nurkowań, 20 zalogowanych nurkowań głębszych niż 30 metrów",
         duration: "Czas trwania kursu:",
         durationCondition: 4,
+        otherImgs: xrf1,
       },
     ],
   },
@@ -1008,8 +1072,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Hypoxic Trimix",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: hypoxic,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę I umiejętności do samodzielnego planowania i przeprowadzenia nurkowań do maksymalnej głębokości 100m, z użyciem hipoksycznych gazów oddechowych trimix",
     details: [
@@ -1027,6 +1091,7 @@ export const diveWorldCourses = [
           "co najmniej 100 zalogowanych nurkowań, 30 zalogowanych nurkowań głębszych niż 30 metrów",
         duration: "Czas trwania kursu:",
         durationCondition: 4,
+        otherImgs: xrf1,
       },
     ],
   },
@@ -1035,8 +1100,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Cave Diving",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: cavediving,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań w środowisku przestrzeni zamkniętej w jaskiniach z wykorzystaniem jednej poręczówki i podstawowych technik nawigacyjnych z ograniczoną penetracją w granicach światła dziennego do maksymalnej głębokości 40m z wykorzystaniem sprzętu i procedur jaskiniowych z partnerem o równych lub o wyższych uprawnieniach.",
     details: [
@@ -1054,6 +1119,7 @@ export const diveWorldCourses = [
           "co najmniej 75 zalogowanych nurkowań, certyfikat Extended Range Wreck diving lub Extended Range Cavern diving",
         duration: "Czas trwania kursu:",
         durationCondition: 4,
+        otherImgs: xrf1,
       },
     ],
   },
@@ -1062,8 +1128,8 @@ export const diveWorldCourses = [
     path: "",
     title: "Technical Wreck Diving",
     category: "Programy Extended Range (XR)",
-    // img: ,
-    description: "",
+    img: twd,
+    description: "Sprawdź szczegóły",
     content:
       "Program ten zapewnia wiedzę i umiejętności do samodzielnego planowania i przeprowadzenia nurkowań w środowisku przestrzeni zamkniętej w jaskiniach z wykorzystaniem jednej poręczówki i podstawowych technik nawigacyjnych z ograniczoną penetracją w granicach światła dziennego do maksymalnej głębokości 40m z wykorzystaniem sprzętu i procedur jaskiniowych z partnerem o równych lub o wyższych uprawnieniach.",
     details: [
@@ -1080,6 +1146,7 @@ export const diveWorldCourses = [
         other: "certyfikat Extended Range Cavern diving",
         duration: "Czas trwania kursu:",
         durationCondition: 4,
+        otherImgs: recreationalsidemount1,
       },
     ],
   },
