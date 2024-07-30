@@ -1,4 +1,4 @@
-import { Button, PagesHeader } from "../components"
+import { Button, PagesHeader, Heading } from "../components"
 import { diveWorldCourses } from "../constants"
 const Courses = () => {
   return (
@@ -6,10 +6,16 @@ const Courses = () => {
       <PagesHeader />
       <section>
         <div className="px-5 pt-20 text-center">
+          <Heading
+            title="Szkolenia Nurkowe"
+            text="W naszym centrum nurkowym szkolenia podzieliliśmy na pięć głównych pionów oraz stopnie i poziomy uznaniowe. Szkolenia dla nurków początkujących (Scuba Experience), programy specjalizacji dla nurków certyfikowanych, szkolenia Extendend Range (XR) dla nurków zaawansowanych oraz szkolenie profesjonalistów nurkowych (DIVE PRO)."
+          />
         </div>
         <div className="mx-auto max-w-screen-2xl px-5">
           <div className="flex items-center justify-between border-b border-active pb-4 pt-16">
-            <h3 className="text-xl font-semibold lg:text-2xl">{diveWorldCourses.length} Szkoleń</h3>
+            <h3 className="text-xl font-semibold lg:text-2xl">
+              {diveWorldCourses.length} Szkoleń
+            </h3>
             <div className="flex items-center">
               <button className="flex h-10 w-full items-center justify-between rounded-md border bg-transparent px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 sm:w-[180px]">
                 <span className="pointer-events-none">Sortuj</span>
