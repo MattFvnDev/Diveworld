@@ -44,6 +44,7 @@ import shipwreck from "./offer/shipwreck.svg"
 import deepdiver from "./offer/deepdiver.svg"
 import advancedadventurer from "./courses/advancedadventurer.webp"
 import basicdiver from "./courses/basicdiver.webp"
+import basicdiver1 from "./courses/basicdiver1.webp"
 import buoyancy from "./courses/buoyancy.webp"
 import buoyancy1 from "./courses/buoyancy1.webp"
 import cavediving from "./courses/cavediving.webp"
@@ -131,6 +132,7 @@ export {
   deepdiver,
   advancedadventurer,
   basicdiver,
+  basicdiver1,
   buoyancy,
   buoyancy1,
   cavediving,
