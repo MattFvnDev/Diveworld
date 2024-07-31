@@ -445,7 +445,7 @@ export const diveWorldOffers = [
 
 export const diveWorldCourses = [
   {
-    id: "1",
+    id: "try-scuba",
     path: "/szkolenia/try-scuba",
     title: "Try Scuba",
     category: "Scuba Experience",
@@ -470,7 +470,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "2",
+    id: "basic-diver",
     path: "/szkolenia/basic-diver",
     title: "Basic Diver",
     category: "Scuba Experience",
@@ -495,7 +495,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "3",
+    id: "scuba-diver",
     path: "/szkolenia/scuba-diver",
     title: "Scuba Diver",
     category: "Scuba Experience",
@@ -522,7 +522,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "4",
+    id: "open-water-diver",
     path: "/szkolenia/open-water-diver",
     title: "Open Water Diver",
     category: "Scuba Experience",
@@ -551,7 +551,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "5",
+    id: "recreational-sidemount",
     path: "/szkolenia/recreational-sidemount",
     title: "Recreational Sidemount Diving",
     category: "Programy Specjalizacji nurkowych",
@@ -580,7 +580,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "6",
+    id: "navigation",
     path: "/szkolenia/navigation",
     title: "Navigation",
     category: "Programy Specjalizacji nurkowych",
@@ -607,7 +607,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "7",
+    id: "night-limited-visibility",
     path: "/szkolenia/night-limited-visibility",
     title: "Night Diving and Limited Visibility",
     category: "Programy Specjalizacji nurkowych",
@@ -634,7 +634,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "8",
+    id: "wreck",
     path: "/szkolenia/wreck",
     title: "Wreck Diving",
     category: "Programy Specjalizacji nurkowych",
@@ -661,7 +661,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "9",
+    id: "deep",
     path: "/szkolenia/deep",
     title: "Deep Diving",
     category: "Programy Specjalizacji nurkowych",
@@ -688,7 +688,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "10",
+    id: "advanced-adventurer",
     path: "/szkolenia/advanced-adventurer",
     title: "Advanced Adventurer",
     category: "Programy Specjalizacji nurkowych",
@@ -715,7 +715,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "11",
+    id: "decompression",
     path: "/szkolenia/decompression",
     title: "Decompression Diving",
     category: "Programy Specjalizacji nurkowych",
@@ -743,7 +743,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "12",
+    id: "ean",
     path: "/szkolenia/ean",
     title: "Enriched Air Nitrox",
     category: "Programy Specjalizacji nurkowych",
@@ -768,7 +768,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "13",
+    id: "science",
     path: "/szkolenia/science",
     title: "Science of Diving",
     category: "Programy Specjalizacji nurkowych",
@@ -793,7 +793,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "14",
+    id: "buoyancy",
     path: "/szkolenia/buoyancy",
     title: "Perfect Buoyancy",
     category: "Programy Specjalizacji nurkowych",
@@ -822,7 +822,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "15",
+    id: "stress-rescue",
     path: "/szkolenia/stress-rescue",
     title: "Diver Stress and Rescue",
     category: "Programy Specjalizacji nurkowych",
@@ -850,7 +850,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "16",
+    id: "dry-suit",
     path: "/szkolenia/dry-suit",
     title: "Dry Suit Diving",
     category: "Programy Specjalizacji nurkowych",
@@ -879,7 +879,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "17",
+    id: "foundations",
     path: "/szkolenia/foundations",
     title: "Extended Range Foundations",
     category: "Programy Extended Range (XR)",
@@ -903,7 +903,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "18",
+    id: "nitrox",
     path: "/szkolenia/nitrox",
     title: "Extended Range Nitrox Diving",
     category: "Programy Extended Range (XR)",
@@ -931,8 +931,8 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "19",
-    path: "/szkolenia/wreck",
+    id: "extended-range-wreck",
+    path: "/szkolenia/extended-range-wreck",
     title: "Extended Range Wreck Diver",
     category: "Programy Extended Range (XR)",
     img: xrwreck,
@@ -959,7 +959,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "20",
+    id: "sidemount",
     path: "/szkolenia/sidemount",
     title: "Extended Range Sidemount",
     category: "Programy Extended Range (XR)",
@@ -986,7 +986,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "21",
+    id: "cavern",
     path: "/szkolenia/cavern",
     title: "Extended Range Cavern Diving",
     category: "Programy Extended Range (XR)",
@@ -1014,7 +1014,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "22",
+    id: "trimix",
     path: "/szkolenia/trimix",
     title: "Extended Range Trimix",
     category: "Programy Extended Range (XR)",
@@ -1041,7 +1041,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "23",
+    id: "technical-trimix",
     path: "/szkolenia/technical-trimix",
     title: "Technical Extended Range Trimix",
     category: "Programy Extended Range (XR)",
@@ -1069,7 +1069,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "24",
+    id: "hypoxic-trimix",
     path: "/szkolenia/hypoxic-trimix",
     title: "Hypoxic Trimix",
     category: "Programy Extended Range (XR)",
@@ -1097,7 +1097,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "25",
+    id: "cave",
     path: "/szkolenia/cave",
     title: "Cave Diving",
     category: "Programy Extended Range (XR)",
@@ -1125,7 +1125,7 @@ export const diveWorldCourses = [
     ],
   },
   {
-    id: "26",
+    id: "technical-wreck",
     path: "/szkolenia/technical-wreck",
     title: "Technical Wreck Diving",
     category: "Programy Extended Range (XR)",
