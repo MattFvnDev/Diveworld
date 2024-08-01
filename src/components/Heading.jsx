@@ -1,9 +1,9 @@
 import { Tag } from "./"
 
-const Heading = ({ className, title, tag, text }) => {
+const Heading = ({ title, tag, text }) => {
   return (
     <div
-      className={`${className} max-w-[50rem] mx-auto mb-12 lg:mb-20 md:text-center`}
+      className="max-w-[50rem] mx-auto mb-12 lg:mb-20 md:text-center"
     >
       {tag && (
         <Tag className="mb-4 md:justify-center text-default/70">{tag}</Tag>
@@ -13,7 +13,7 @@ const Heading = ({ className, title, tag, text }) => {
           {title}
         </h2>
       )}
-      {text && <p className=" text-base mt-4 text-default/70">{text}</p>}
+      {text && <p className="text-base mt-4 text-default/70">{text}</p>}
     </div>
   )
 }
