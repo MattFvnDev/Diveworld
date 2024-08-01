@@ -84,6 +84,7 @@ import xrnitrox from "./courses/xrnitrox.webp"
 import xrs from "./courses/xrs.webp"
 import xrt from "./courses/xrt.webp"
 import xrwreck from "./courses/xrwreck.webp"
+import background from "./courses/background.webp"
 
 export {
   logo,
@@ -172,4 +173,5 @@ export {
   xrs,
   xrt,
   xrwreck,
+  background
 }
