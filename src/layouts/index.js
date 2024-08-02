@@ -1,3 +1,4 @@
-import RootLayout from "./RootLayout";
+import RootLayout from "./RootLayout"
+import OfferLayout from "./OfferLayout"
 
-export {RootLayout}
+export { RootLayout, OfferLayout }
