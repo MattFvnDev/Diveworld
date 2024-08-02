@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import { RootLayout } from "./layouts"
+import { RootLayout, OfferLayout } from "./layouts"
 import {
   About,
   Courses,
@@ -22,15 +22,6 @@ export default function Router() {
           element: <Home />,
         },
         {
-          path: "/oferta",
-          element: <Offer />,
-        },
-        {
-          index: true,
-          path: "/oferta/:id",
-          element: <DetailedOffer />,
-        },
-        {
           path: "/szkolenia",
           element: <Courses />,
         },
@@ -50,6 +41,20 @@ export default function Router() {
         {
           path: "/cennik",
           element: <Pricelist />,
+        },
+      ],
+    },
+    {
+      path: "/oferta",
+      element: <OfferLayout />,
+      children: [
+        {
+          index: true,
+          element: <Offer />,
+        },
+        {
+          path: "/oferta/:id",
+          element: <DetailedOffer />,
         },
       ],
     },
