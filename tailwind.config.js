@@ -5,6 +5,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "bg-image":
+          "linear-gradient(to bottom, rgba(1, 3, 24, 0.8)5%, rgba(1, 3, 24, 0.2), rgba(1, 3, 24,1)100%), url('/src/assets/courses/background.webp')",
+      },
       keyframes: {
         moveCarouselIconLeft: {
           "0%": {
