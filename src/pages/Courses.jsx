@@ -1,8 +1,9 @@
-import { Button, PagesHeader, Heading } from "../components"
+import { Button, PagesHeader, Heading, Mask } from "../components"
 import { diveWorldCourses } from "../constants"
 const Courses = () => {
   return (
     <>
+      <Mask />
       <PagesHeader />
       <section>
         <div className="px-5 pt-20 text-center">
