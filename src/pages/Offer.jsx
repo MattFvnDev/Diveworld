@@ -1,9 +1,10 @@
-import { PagesHeader } from "../components"
+import { Mask, PagesHeader } from "../components"
 
 const Offer = () => {
   return (
     <>
-    <PagesHeader/>
+      <Mask />
+      <PagesHeader />
     </>
   )
 }
