@@ -27,6 +27,7 @@ import Tag from "./Tag"
 import Heading from "./Heading"
 import DetailedImages from "./DetailedImages"
 import Indicator from "./Indicator"
+import Mask from "./Mask"
 
 export {
   Header,
@@ -58,4 +59,5 @@ export {
   Heading,
   DetailedImages,
   Indicator,
+  Mask
 }
