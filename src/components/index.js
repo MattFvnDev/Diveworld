@@ -28,6 +28,7 @@ import Heading from "./Heading"
 import DetailedImages from "./DetailedImages"
 import Indicator from "./Indicator"
 import Mask from "./Mask"
+import BestCourses from "./BestCourses"
 
 export {
   Header,
@@ -59,5 +60,6 @@ export {
   Heading,
   DetailedImages,
   Indicator,
-  Mask
+  Mask,
+  BestCourses
 }
