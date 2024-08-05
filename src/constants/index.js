@@ -516,6 +516,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/open-water-diver",
     title: "Open Water Diver",
     category: "Scuba Experience",
+    subCategory:"Best",
     img: owd,
     description: "Sprawdź szczegóły",
     content:
@@ -542,6 +543,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/recreational-sidemount",
     title: "Recreational Sidemount Diving",
     category: "Programy Specjalizacji nurkowych",
+    subCategory:"Best",
     img: recreationalsidemount,
     description: "Sprawdź szczegóły",
     content:
@@ -568,6 +570,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/navigation",
     title: "Navigation",
     category: "Programy Specjalizacji nurkowych",
+    subCategory:"Best",
     img: navigation,
     description: "Sprawdź szczegóły",
     content:
@@ -592,6 +595,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/night-limited-visibility",
     title: "Night Diving and Limited Visibility",
     category: "Programy Specjalizacji nurkowych",
+    subCategory:"Best",
     img: nlv,
     description: "Sprawdź szczegóły",
     content:
@@ -616,6 +620,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/wreck",
     title: "Wreck Diving",
     category: "Programy Specjalizacji nurkowych",
+    subCategory:"Best",
     img: wreckdiving,
     description: "Sprawdź szczegóły",
     content:
@@ -640,6 +645,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/deep",
     title: "Deep Diving",
     category: "Programy Specjalizacji nurkowych",
+    subCategory:"Best",
     img: deepdiving,
     description: "Sprawdź szczegóły",
     content:
@@ -688,6 +694,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/decompression",
     title: "Decompression Diving",
     category: "Programy Specjalizacji nurkowych",
+    subCategory:"Best",
     img: decompression,
     description: "Sprawdź szczegóły",
     content:
@@ -713,6 +720,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/ean",
     title: "Enriched Air Nitrox",
     category: "Programy Specjalizacji nurkowych",
+    subCategory:"Best",
     img: ean,
     description: "Sprawdź szczegóły",
     content:
@@ -834,6 +842,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/foundations",
     title: "Extended Range Foundations",
     category: "Programy Extended Range (XR)",
+    subCategory:"Best",
     img: xrf,
     description: "Sprawdź szczegóły",
     content:
@@ -854,6 +863,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/nitrox",
     title: "Extended Range Nitrox Diving",
     category: "Programy Extended Range (XR)",
+    subCategory:"Best",
     img: xrnitrox,
     description: "Sprawdź szczegóły",
     content:
@@ -879,6 +889,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/extended-range-wreck",
     title: "Extended Range Wreck Diver",
     category: "Programy Extended Range (XR)",
+    subCategory:"Best",
     img: xrwreck,
     description: "Sprawdź szczegóły",
     content:
@@ -903,6 +914,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/sidemount",
     title: "Extended Range Sidemount",
     category: "Programy Extended Range (XR)",
+    subCategory:"Best",
     img: xrs,
     description: "Sprawdź szczegóły",
     content:
@@ -927,6 +939,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/cavern",
     title: "Extended Range Cavern Diving",
     category: "Programy Extended Range (XR)",
+    subCategory:"Best",
     img: xrcave,
     description: "Sprawdź szczegóły",
     content:
@@ -1023,6 +1036,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/cave",
     title: "Cave Diving",
     category: "Programy Extended Range (XR)",
+    subCategory:"Best",
     img: cavediving,
     description: "Sprawdź szczegóły",
     content:
