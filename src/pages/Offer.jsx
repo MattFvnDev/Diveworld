@@ -1,9 +1,10 @@
+import { background } from "../assets"
 import { Heading, Mask, PagesHeader } from "../components"
 
 const Offer = () => {
   return (
     <>
-      <Mask />
+      <Mask img={background} />
       <PagesHeader />
       <section>
         <div className="px-5 pt-20 text-center">
