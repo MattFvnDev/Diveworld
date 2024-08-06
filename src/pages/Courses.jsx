@@ -1,9 +1,10 @@
+import { coursesbackground} from "../assets"
 import { Button, PagesHeader, Heading, Mask } from "../components"
 import { diveWorldCourses } from "../constants"
 const Courses = () => {
   return (
     <>
-      <Mask />
+      <Mask img={coursesbackground}/>
       <PagesHeader />
       <section>
         <div className="px-5 pt-20 text-center">
