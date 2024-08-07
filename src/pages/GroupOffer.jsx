@@ -1,7 +1,9 @@
-import { PagesHeader } from "../components"
+import { bacgroundgrp } from "../assets"
+import { Mask, PagesHeader } from "../components"
 const GroupOffer = () => {
   return (
     <>
+      <Mask img={bacgroundgrp } />
       <PagesHeader />
     </>
   )
