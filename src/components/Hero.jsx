@@ -1,5 +1,5 @@
 import { herobackground } from "../assets"
-import { Button, Indicator } from "./"
+import { Button, Indicator, Mask } from "./"
 
 const Hero = () => {
   return (
@@ -37,19 +37,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="z-[-1] absolute inset-0">
-        <div className="absolute z-[1] top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-background/80 via-background/10 to-background min-h-screen"></div>
-        <div className="z-0 object-cover w-full h-screen relative overflow-hidden">
-          <video
-            className="object-cover w-full h-screen absolute inset-0"
-            autoPlay
-            loop
-            muted
-          >
-            <source src={herobackground} />
-          </video>
-        </div>
-      </div>
+      <Mask video={herobackground} />
       <div className="absolute inset-x-0 my-0 mx-auto bottom-6 opacity-100 ">
         <div className="relative flex flex-col items-center ">
           <Indicator />
