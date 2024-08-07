@@ -86,6 +86,11 @@ import xrt from "./courses/xrt.webp"
 import xrwreck from "./courses/xrwreck.webp"
 import background from "./mask/background.webp"
 import coursesbackground from "./mask/coursesbackground.webp"
+import backgroundgas from "./mask/backgroundgas.webp"
+import backgrounddiver from "./mask/backgrounddiver.webp"
+import backgroundmalta from "./mask/backgroundmalta .webp"
+import backgroundsand from "./mask/backgroundsand.webp"
+import bacgroundgrp from "./mask/backgroundgrp.webp"
 
 export {
   logo,
@@ -176,4 +181,9 @@ export {
   xrwreck,
   background,
   coursesbackground,
+  backgroundgas,
+  backgrounddiver,
+  backgroundmalta,
+  backgroundsand,
+  bacgroundgrp,
 }
