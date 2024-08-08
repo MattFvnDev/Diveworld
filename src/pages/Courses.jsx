@@ -10,7 +10,7 @@ const Courses = () => {
         <div className="px-5 pt-20 text-center">
           <Heading
             title="Szkolenia Nurkowe"
-            text="W naszym centrum nurkowym szkolenia podzieliliśmy na pięć głównych pionów oraz stopnie i poziomy uznaniowe. Szkolenia dla nurków początkujących (Scuba Experience), programy specjalizacji dla nurków certyfikowanych, szkolenia Extendend Range (XR) dla nurków zaawansowanych oraz szkolenie profesjonalistów nurkowych (DIVE PRO)."
+            text="W naszym centrum nurkowym szkolenia podzieliliśmy na cztery główne piony oraz stopnie i poziomy uznaniowe. Szkolenia dla nurków początkujących (Scuba Experience), programy specjalizacji dla nurków certyfikowanych, szkolenia Extendend Range (XR) dla nurków zaawansowanych oraz szkolenie profesjonalistów nurkowych (DIVE PRO)."
           />
         </div>
         <div className="mx-auto max-w-screen-2xl px-5">
