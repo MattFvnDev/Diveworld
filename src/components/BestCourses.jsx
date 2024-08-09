@@ -13,7 +13,7 @@ const BestCourses = () => {
     slider.scrollLeft = slider.scrollLeft + 308
   }
   return (
-    <section className="relative py-10 lg:py-16 xl:py-20 overflow-y-hidden">
+    <section className="relative py-10 lg:py-16 xl:py-20 ">
       <div className="max-w-screen-2xl mx-auto px-5 ">
         <Heading
           tag="Szkolenia z Diveworld"
@@ -21,7 +21,7 @@ const BestCourses = () => {
         />
         <div
           id="slider"
-          className="flex gap-12 overflow-x-scroll overflow-y-hidden whitespace-nowrap scroll-smooth relative [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+          className="flex gap-12 overflow-y-hidden whitespace-nowrap scroll-smooth relative [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
         >
           {bestCourses.map((course) => (
             <Card
