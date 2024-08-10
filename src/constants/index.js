@@ -520,7 +520,7 @@ export const diveWorldCourses = [
     img: owd,
     description: "Sprawdź szczegóły",
     content:
-      "Program SSI Scuba Diver, to program wprowadzający wiedzę i niezbędne ćwiczenia do nurkowania na wodach basenopodobnych i na wodach otwartych. W trakcie szkolenia kursanci uzyskują fundamentalną wiedzę i umiejętności do samodzielnego przeprowadzenia nurkowania w zakresie zdobytych uprawnień, bezpiecznego kontrolowanego zanurzenia i wynurzenia, oraz radzenia sobie w sytuacjach awaryjnych.",
+      "Program SSI Open Water Diver, to program wprowadzający wiedzę i niezbędne ćwiczenia do nurkowania na wodach basenopodobnych i na wodach otwartych. W trakcie szkolenia kursanci uzyskują fundamentalną wiedzę i umiejętności do samodzielnego przeprowadzenia nurkowania w zakresie zdobytych uprawnień, bezpiecznego kontrolowanego zanurzenia i wynurzenia, oraz radzenia sobie w sytuacjach awaryjnych.",
 
     ageCondition: "Minimalny wiek do udziału w szkoleniu:",
     minimalAge: 10,
