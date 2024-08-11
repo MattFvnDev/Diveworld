@@ -516,7 +516,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/open-water-diver",
     title: "Open Water Diver",
     category: "Scuba Experience",
-    subCategory:"Best",
+    subCategory: "Best",
     img: owd,
     description: "Sprawdź szczegóły",
     content:
@@ -543,7 +543,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/recreational-sidemount",
     title: "Recreational Sidemount Diving",
     category: "Programy Specjalizacji nurkowych",
-    subCategory:"Best",
+    subCategory: "Best",
     img: recreationalsidemount,
     description: "Sprawdź szczegóły",
     content:
@@ -570,7 +570,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/navigation",
     title: "Navigation",
     category: "Programy Specjalizacji nurkowych",
-    subCategory:"Best",
+    subCategory: "Best",
     img: navigation,
     description: "Sprawdź szczegóły",
     content:
@@ -595,7 +595,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/night-limited-visibility",
     title: "Night Diving and Limited Visibility",
     category: "Programy Specjalizacji nurkowych",
-    subCategory:"Best",
+    subCategory: "Best",
     img: nlv,
     description: "Sprawdź szczegóły",
     content:
@@ -620,7 +620,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/wreck",
     title: "Wreck Diving",
     category: "Programy Specjalizacji nurkowych",
-    subCategory:"Best",
+    subCategory: "Best",
     img: wreckdiving,
     description: "Sprawdź szczegóły",
     content:
@@ -645,7 +645,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/deep",
     title: "Deep Diving",
     category: "Programy Specjalizacji nurkowych",
-    subCategory:"Best",
+    subCategory: "Best",
     img: deepdiving,
     description: "Sprawdź szczegóły",
     content:
@@ -694,7 +694,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/decompression",
     title: "Decompression Diving",
     category: "Programy Specjalizacji nurkowych",
-    subCategory:"Best",
+    subCategory: "Best",
     img: decompression,
     description: "Sprawdź szczegóły",
     content:
@@ -720,7 +720,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/ean",
     title: "Enriched Air Nitrox",
     category: "Programy Specjalizacji nurkowych",
-    subCategory:"Best",
+    subCategory: "Best",
     img: ean,
     description: "Sprawdź szczegóły",
     content:
@@ -842,7 +842,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/foundations",
     title: "Extended Range Foundations",
     category: "Programy Extended Range (XR)",
-    subCategory:"Best",
+    subCategory: "Best",
     img: xrf,
     description: "Sprawdź szczegóły",
     content:
@@ -863,7 +863,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/nitrox",
     title: "Extended Range Nitrox Diving",
     category: "Programy Extended Range (XR)",
-    subCategory:"Best",
+    subCategory: "Best",
     img: xrnitrox,
     description: "Sprawdź szczegóły",
     content:
@@ -889,7 +889,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/extended-range-wreck",
     title: "Extended Range Wreck Diver",
     category: "Programy Extended Range (XR)",
-    subCategory:"Best",
+    subCategory: "Best",
     img: xrwreck,
     description: "Sprawdź szczegóły",
     content:
@@ -914,7 +914,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/sidemount",
     title: "Extended Range Sidemount",
     category: "Programy Extended Range (XR)",
-    subCategory:"Best",
+    subCategory: "Best",
     img: xrs,
     description: "Sprawdź szczegóły",
     content:
@@ -939,7 +939,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/cavern",
     title: "Extended Range Cavern Diving",
     category: "Programy Extended Range (XR)",
-    subCategory:"Best",
+    subCategory: "Best",
     img: xrcave,
     description: "Sprawdź szczegóły",
     content:
@@ -1036,7 +1036,7 @@ export const diveWorldCourses = [
     path: "/szkolenia/cave",
     title: "Cave Diving",
     category: "Programy Extended Range (XR)",
-    subCategory:"Best",
+    subCategory: "Best",
     img: cavediving,
     description: "Sprawdź szczegóły",
     content:
@@ -1077,6 +1077,48 @@ export const diveWorldCourses = [
     other: "certyfikat Extended Range Cavern diving",
     duration: "Czas trwania kursu:",
     durationCondition: 4,
+    otherImgs: recreationalsidemount1,
+  },
+  {
+    id: "specialty-diver",
+    path: "/szkolenia/specialty-diver",
+    title: "Specialty Diver",
+    category: "Stopnie i poziomy uznaniowe",
+    img: twd,
+    description: "Sprawdź szczegóły",
+    content:
+      "Aby uzyskać stopień uznaniowy SSI Specialty Diver nurek musi posiadać zalogowane minimum 12 nurkowań oraz posiadać ukończone dwie specjalizacje nurkowe.",
+    otherConditions: "Wymagania do otrzymania certyfikatu:",
+    other:
+      "Conajmniej 12 zalogowanych nurkowań oraz ukończone 2 specjalizacje z Programu Specjalizacji nurkowych lub Programu Extended Range (XR)",
+    otherImgs: recreationalsidemount1,
+  },
+  {
+    id: "aowd",
+    path: "/szkolenia/aowd",
+    title: "Advanced Open Water Diver",
+    category: "Stopnie i poziomy uznaniowe",
+    img: twd,
+    description: "Sprawdź szczegóły",
+    content:
+      "Aby uzyskać stopień uznaniowy SSI Advanced Open Water Diver nurek musi posiadać zalogowane minimum 24 nurkowań oraz posiadać ukończone cztery specjalizacje nurkowe.",
+    otherConditions: "Wymagania do otrzymania certyfikatu:",
+    other:
+      "Conajmniej 24 zalogowanych nurkowań oraz ukończone 4 specjalizacje z Programu Specjalizacji nurkowych lub Programu Extended Range (XR)",
+    otherImgs: recreationalsidemount1,
+  },
+  {
+    id: "master-diver",
+    path: "/szkolenia/master-diver",
+    title: "Master Diver",
+    category: "Stopnie i poziomy uznaniowe",
+    img: twd,
+    description: "Sprawdź szczegóły",
+    content:
+      "Aby uzyskać stopień uznaniowy SSI Master Diver nurek musi posiadać zalogowane minimum 50 nurkowań, ukończyć program Stress & Rescue i posiadać ukończone cztery specjalizacje nurkowe.",
+    otherConditions: "Wymagania do otrzymania certyfikatu:",
+    other:
+      "Conajmniej 50 zalogowanych nurkowań, ukończony program Stress & Rescue i 4 specjalizacje z Programu Specjalizacji nurkowych lub Programu Extended Range (XR)",
     otherImgs: recreationalsidemount1,
   },
 ]
