@@ -91,6 +91,9 @@ import backgrounddiver from "./mask/backgrounddiver.webp"
 import backgroundmalta from "./mask/backgroundmalta .webp"
 import backgroundsand from "./mask/backgroundsand.webp"
 import bacgroundgrp from "./mask/backgroundgrp.webp"
+import masterdiver from "./courses/masterdiver.webp"
+import specialtydiver from "./courses/specialtydiver.webp"
+import aowd from "./courses/aowd.webp"
 
 export {
   logo,
@@ -186,4 +189,7 @@ export {
   backgroundmalta,
   backgroundsand,
   bacgroundgrp,
+  masterdiver,
+  specialtydiver,
+  aowd,
 }
