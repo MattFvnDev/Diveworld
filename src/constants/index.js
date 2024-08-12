@@ -77,6 +77,9 @@ import {
   xrs,
   xrt,
   xrwreck,
+  masterdiver,
+  aowd,
+  specialtydiver,
 } from "../assets"
 
 export const navigationLinks = [
@@ -1084,41 +1087,41 @@ export const diveWorldCourses = [
     path: "/szkolenia/specialty-diver",
     title: "Specialty Diver",
     category: "Stopnie i poziomy uznaniowe",
-    img: twd,
+    img: specialtydiver,
     description: "Sprawdź szczegóły",
     content:
       "Aby uzyskać stopień uznaniowy SSI Specialty Diver nurek musi posiadać zalogowane minimum 12 nurkowań oraz posiadać ukończone dwie specjalizacje nurkowe.",
     otherConditions: "Wymagania do otrzymania certyfikatu:",
     other:
       "Conajmniej 12 zalogowanych nurkowań oraz ukończone 2 specjalizacje z Programu Specjalizacji nurkowych lub Programu Extended Range (XR)",
-    otherImgs: recreationalsidemount1,
+    otherImgs: specialtydiver,
   },
   {
     id: "aowd",
     path: "/szkolenia/aowd",
     title: "Advanced Open Water Diver",
     category: "Stopnie i poziomy uznaniowe",
-    img: twd,
+    img: aowd,
     description: "Sprawdź szczegóły",
     content:
       "Aby uzyskać stopień uznaniowy SSI Advanced Open Water Diver nurek musi posiadać zalogowane minimum 24 nurkowań oraz posiadać ukończone cztery specjalizacje nurkowe.",
     otherConditions: "Wymagania do otrzymania certyfikatu:",
     other:
       "Conajmniej 24 zalogowanych nurkowań oraz ukończone 4 specjalizacje z Programu Specjalizacji nurkowych lub Programu Extended Range (XR)",
-    otherImgs: recreationalsidemount1,
+    otherImgs: aowd,
   },
   {
     id: "master-diver",
     path: "/szkolenia/master-diver",
     title: "Master Diver",
     category: "Stopnie i poziomy uznaniowe",
-    img: twd,
+    img: masterdiver,
     description: "Sprawdź szczegóły",
     content:
       "Aby uzyskać stopień uznaniowy SSI Master Diver nurek musi posiadać zalogowane minimum 50 nurkowań, ukończyć program Stress & Rescue i posiadać ukończone cztery specjalizacje nurkowe.",
     otherConditions: "Wymagania do otrzymania certyfikatu:",
     other:
       "Conajmniej 50 zalogowanych nurkowań, ukończony program Stress & Rescue i 4 specjalizacje z Programu Specjalizacji nurkowych lub Programu Extended Range (XR)",
-    otherImgs: recreationalsidemount1,
+    otherImgs: masterdiver,
   },
 ]
