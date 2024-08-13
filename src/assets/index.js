@@ -94,6 +94,7 @@ import bacgroundgrp from "./mask/backgroundgrp.webp"
 import masterdiver from "./courses/masterdiver.webp"
 import specialtydiver from "./courses/specialtydiver.webp"
 import aowd from "./courses/aowd.webp"
+import wave from "./svg/wave.svg"
 
 export {
   logo,
@@ -192,4 +193,5 @@ export {
   masterdiver,
   specialtydiver,
   aowd,
+  wave
 }
